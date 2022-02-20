@@ -1,9 +1,9 @@
 Basics
 =====
 
-.. _installation:
+.. _install:
 
-Installation
+Install
 ------------
 
 After downloading the Zip file, please follow those instructions and this Video:	https://youtu.be/nJjRuAxuqhU
@@ -27,9 +27,9 @@ Method B:  -- Manual Install --
 
 
 
-.. _updating:
+.. _update:
 
-Updating
+Update
 ----------------
 
 As you already have the kit installed, create a backup of the folder as Zip or any archive,
