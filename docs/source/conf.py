@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'SMONSTER_DOC'
-copyright = '2021, Franck Elisabeth'
+copyright = '2022, Franck Elisabeth'
 author = 'Franck Elisabeth'
 
 release = '0.1'
