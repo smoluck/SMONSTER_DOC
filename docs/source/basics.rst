@@ -25,6 +25,8 @@ Method B:  -- Manual Install --
 5 ---> Restart Modo
 5 ---> Now you're ready to go.
 
+
+
 .. _updating:
 
 Updating
@@ -40,4 +42,3 @@ The zip file will not be loaded at modo start, you're also free to save it somew
 2 ---> Open Modo and drag n drop the new LPK file in it.
 3 ---> Restart Modo.
 4 ---> Now you're ready to go.
-
