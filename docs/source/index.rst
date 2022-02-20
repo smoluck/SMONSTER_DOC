@@ -9,6 +9,7 @@ It offers *simple* and *intuitive* Kits to bring you a quicker workflow of creat
 
 Check out the :doc:`basics` section for further information, including
 how to :ref:`install` or :ref:`update` it.
+for the Kits include in this Kit Compilation refer to :doc:`kits`.
 
 .. note::
 
