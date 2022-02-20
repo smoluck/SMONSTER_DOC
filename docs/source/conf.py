@@ -6,8 +6,8 @@ project = 'SMONSTER_DOC'
 copyright = '2022, Franck Elisabeth'
 author = 'Franck Elisabeth'
 
-release = '0.1.01'
-version = '0.1.01'
+release = '0.2'
+version = '0.2'
 
 # -- General configuration
 
