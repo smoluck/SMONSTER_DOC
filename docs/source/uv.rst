@@ -10,7 +10,7 @@ UV Kit
 
 Concept
 -------
-
+    
    The UV kit is available from the kit bar and can be accessed directly from the 3D viewport as well as from the UV viewport.
    
    It is designed to speedup the projection and unwrap of UV from a given mesh, using Coplanar selection presets.
@@ -45,7 +45,14 @@ Training scenes are available from the **SMONSTER TOP MENU** / **LOAD TRAINING S
 Main Commands
 -------------
 
-**SPP** - Smart Projection Planar https://youtu.be/I_Wt0PMOkM8
+**SPP** - Smart Projection Planar
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/I_Wt0PMOkM8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+
 **SPC** - Smart Projection Cylindrical https://youtu.be/yfzGHzaXVGo
 **SPU** - Smart Projection Unwrap https://youtu.be/FCKcJemxS1Q
 
