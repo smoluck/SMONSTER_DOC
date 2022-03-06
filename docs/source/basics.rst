@@ -1,23 +1,28 @@
 Basics
 =====
 
-.. _install:
+.. _basics_install:
 
 Install
-------------
+-------
+
+TEMPTEMP TEXT
 
 After downloading the Zip file, please follow those instructions and this Video:	https://youtu.be/nJjRuAxuqhU
-(If you are an owner of SMONSTER V1, please delete the SMONSTER Folder from your Kits folder Before install)
+
+.. note::
+
+   (If you are an owner of SMONSTER V1 or v2, please delete the SMONSTER Folder from your Kits folder before install it the installation folder could be found in the Content folder of Modo. You just have to open Modo and open that folder location via the menu "System"/ "Open Content folder" )
 
 
-Method A:  -- Automatic Install via Modo and LPK --
+Method A:  Automatic Install via Modo and LPK
 1 ---> Follow this Video https://youtu.be/nJjRuAxuqhU
 2 ---> Open Modo and Drag and Drop the LPK file into Modo Window (Modo should be started with administrator rights to unpack the files).
 3 ---> Restart Modo
 4 ---> Now you're ready to go.
 
 
-Method B:  -- Manual Install --
+Method B:  Manual Install
 1 ---> Follow this Video https://youtu.be/nJjRuAxuqhU
 2 ---> Open the Zip Archive "SMONSTER_V3.XX.zip" and Drag and Drop the LPK file into a temp folder.
 3 ---> Rename the SMONSTER_V3.XX.lpk to a zip file SMONSTER_V3.XX.zip
@@ -27,7 +32,7 @@ Method B:  -- Manual Install --
 
 
 
-.. _update:
+.. _basics_update:
 
 Update
 ----------------

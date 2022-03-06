@@ -8,6 +8,7 @@ Installation of Smonster kit
 After downloading the Zip file, please follow those instructions and this Video:	https://youtu.be/nJjRuAxuqhU
 
 .. note::
+
    (If you are an owner of SMONSTER V1 or v2, please delete the SMONSTER Folder from your Kits folder before install it the installation folder could be found in the Content folder of Modo. You just have to open Modo and open that folder location via the menu "System"/ "Open Content folder" )
 
 
