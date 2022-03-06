@@ -20,11 +20,12 @@ Contents
 
 .. toctree::
 
-   kitlist
    installation
    update
+   topmenu
    
 .. toctree::
 
+   kitlist
    bake
    uv
