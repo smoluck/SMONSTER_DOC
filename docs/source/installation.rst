@@ -12,7 +12,7 @@ After downloading the Zip file from the Gumroad page, please follow those instru
    (If you are an owner of SMONSTER V1 or v2, please delete the SMONSTER folder from your Kits folder before install it the installation folder could be found in the Content folder of Modo. You just have to open Modo and open that folder location via the menu **System** / **Open Content folder** )
 
 
-... _installation_smonster_automatic:
+.. _installation_smonster_automatic:
 
 Automatic Install (via Modo and LPK)
 ------------------------------------
@@ -23,7 +23,7 @@ Automatic Install (via Modo and LPK)
 
 
 
-... _installation_smonster_manual:
+.. _installation_smonster_manual:
 
 Manual Install 
 --------------
@@ -40,10 +40,8 @@ Manual Install
 
 Installation note for MARMOSET LIVELINK
 ---------------------------------------
-#. Make sure to copy this file:    SMO_MARMOSET_MODO_LL.tbbake
-#. from the Kit folder:            SMONSTER/Kits/SMO_MARMOSET_LIVELINK/Marmoset_Script
-#. to the folder                   C:/Users/YOUR_NAME/AppData/Local/Marmoset Toolbag 3/baker if you use Marmoset v3
-#. or/and
-#. to the folder                   C:/Users/YOUR_NAME/AppData/Local/Marmoset Toolbag 4/baker if you use Marmoset v4
+#. Make sure to copy this file ``SMO_MARMOSET_MODO_LL.tbbake`` from the Kit folder ``SMONSTER/Kits/SMO_MARMOSET_LIVELINK/Marmoset_Script`` to the folder ``C:/Users/YOUR_NAME/AppData/Local/Marmoset Toolbag 3/baker`` if you use Marmoset v3 or/and ``C:/Users/YOUR_NAME/AppData/Local/Marmoset Toolbag 4/baker`` if you use Marmoset v4
 
-Also check your **Modo Preferences**/**Defaults**/**Application**/**Item Index Style** It should be set to (Underscore ) : Item_2
+.. note::
+
+    Also check your **Modo Preferences**/**Defaults**/**Application**/**Item Index Style** It should be set to (Underscore ) : Item_2

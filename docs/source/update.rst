@@ -12,7 +12,6 @@ The zip file will not be loaded at modo start, you're also free to save it somew
 
 (If you are an owner of SMONSTER V1 or V2, please delete the SMONSTER Folder from your Kits folder Before install)
 
---- Delete the folder SMONSTER or SMONSTER_V2 in your Modo Content Kits folder (Available from Modo/System/Modo Content folder  *Menu*.
---- Open Modo and drag n drop the new LPK file in it.
---- Restart Modo.
---- Now you're ready to go.
+#. Delete the folder SMONSTER or SMONSTER_V2 in your Modo Content Kits folder (Available from Modo/System/Modo Content folder  *Menu*.
+#. Open Modo and drag n drop the new LPK file in it.
+#. Restart Modo.
