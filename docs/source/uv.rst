@@ -45,21 +45,34 @@ Training scenes are available from the **SMONSTER TOP MENU** / **LOAD TRAINING S
 Main Commands
 -------------
 
-*. **SPP** - Smart Projection Planar
+For any unwrap procedure there is a set of 3 smart projection commands. Each are set to specific unwrap.
+
+.. _uv_spp:
+
+SPP - Smart Projection Planar
+-----------------------------
 
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/I_Wt0PMOkM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-*. **SPC** - Smart Projection Cylindrical
+
+.. _uv_spc:
+
+SPC - Smart Projection Cylindrical
+-----------------------------
 
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/yfzGHzaXVGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-*. **SPU** - Smart Projection Unwrap
+
+.. _uv_spu:
+
+SPU - Smart Projection Unwrap
+-----------------------------
 
 .. raw:: html
 
@@ -71,5 +84,8 @@ Main Commands
 
 UV Tools
 --------
+
+The **UV Tools** are a set of commands to speepup and/or automatized common actions in UV Workflow. Some are more handy daily tools for convenient help during your process. 
+
 Normalize / Fix Flipped / Pack
    
