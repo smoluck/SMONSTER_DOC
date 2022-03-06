@@ -31,5 +31,5 @@ Livelink Kits
 
 .. note::
 
-(*You can enable or disable any of those kits as long as you keep SMONSTER and SMO MASTER kit enabled.*)
+  (*You can enable or disable any of those kits as long as you keep SMONSTER and SMO MASTER kit enabled.*)
 
