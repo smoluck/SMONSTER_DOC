@@ -31,6 +31,12 @@ Livelink Kits
 
 .. note::
 
-  (*You can enable or disable any of those kits as long as you keep SMONSTER and SMO MASTER kit enabled.*)
+  *You can enable or disable any of those kits as long as you keep SMONSTER and SMO MASTER kit enabled.*
 
-  (*if you want to disable all the kits in SMONSTER simply disable it. It will offload all the kit in it.*)
+.. note::
+
+  *If you want to disable all the kits in SMONSTER simply disable it. It will offload all the kit in it.*
+  
+.. note::
+
+  *Installing or Enabling the kit doesn't change any of your keymapping in Modo. Nothing on this part is Hardcoded. You can assign keymap via ref:`keymapping` menu.*
