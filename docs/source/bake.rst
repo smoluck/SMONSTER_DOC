@@ -1,7 +1,7 @@
-API
-===
+BAKE Kit
+========
 
 .. autosummary::
    :toctree: generated
 
-   lumache
+   blabla
