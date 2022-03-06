@@ -21,4 +21,5 @@ Contents
 .. toctree::
 
    installation
+   update
    bake
