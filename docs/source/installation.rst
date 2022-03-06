@@ -14,11 +14,11 @@ After downloading the Zip file, please follow those instructions and this Video:
 .. _installation_smonster_automatic:
 
 Automatic Install via Modo and LPK
----------------------------------------------
-1 ---> Follow this Video https://youtu.be/nJjRuAxuqhU
-2 ---> Open Modo and Drag and Drop the LPK file into Modo Window (Modo should be started with administrator rights to unpack the files).
-3 ---> Restart Modo
-4 ---> Now you're ready to go.
+----------------------------------
+... Follow this Video https://youtu.be/nJjRuAxuqhU
+... Open Modo and Drag and Drop the LPK file into Modo Window (Modo should be started with administrator rights to unpack the files).
+... Restart Modo
+... Now you're ready to go.
 
 
 
