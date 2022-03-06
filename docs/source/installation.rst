@@ -11,7 +11,7 @@ the installation folder could be found in the Content folder of Modo. You just h
 
 
 
-.... _installation_smonster_Automatic:
+.. _installation_smonster_Automatic:
 
 Automatic Install via Modo and LPK
 ---------------------------------------------
@@ -22,7 +22,7 @@ Automatic Install via Modo and LPK
 
 
 
-.... _installation_smonster_manual:
+.. _installation_smonster_manual:
 
 Manual Install 
 --------------
