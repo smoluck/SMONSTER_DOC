@@ -46,10 +46,10 @@ Main Commands
 -------------
 
 *. **SPP** - Smart Projection Planar
+
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/I_Wt0PMOkM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 *. **SPC** - Smart Projection Cylindrical https://youtu.be/yfzGHzaXVGo
 *. **SPU** - Smart Projection Unwrap https://youtu.be/FCKcJemxS1Q
