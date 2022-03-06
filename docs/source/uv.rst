@@ -45,16 +45,14 @@ Training scenes are available from the **SMONSTER TOP MENU** / **LOAD TRAINING S
 Main Commands
 -------------
 
-**SPP** - Smart Projection Planar
+*. **SPP** - Smart Projection Planar
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/I_Wt0PMOkM8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/I_Wt0PMOkM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-**SPC** - Smart Projection Cylindrical https://youtu.be/yfzGHzaXVGo
-**SPU** - Smart Projection Unwrap https://youtu.be/FCKcJemxS1Q
+*. **SPC** - Smart Projection Cylindrical https://youtu.be/yfzGHzaXVGo
+*. **SPU** - Smart Projection Unwrap https://youtu.be/FCKcJemxS1Q
 
 
 
