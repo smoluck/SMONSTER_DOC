@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'SMONSTER_DOC'
-copyright = '2021, Franck Elisabeth'
+copyright = '2022, Franck Elisabeth'
 author = 'Franck Elisabeth'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1'
 
 # -- General configuration
 
