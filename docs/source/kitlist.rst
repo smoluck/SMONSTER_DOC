@@ -33,3 +33,4 @@ Livelink Kits
 
   (*You can enable or disable any of those kits as long as you keep SMONSTER and SMO MASTER kit enabled.*)
 
+  (*if you want to disable all the kits in SMONSTER simply disable it. It will offload all the kit in it.*)
