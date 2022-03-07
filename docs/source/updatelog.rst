@@ -51,12 +51,13 @@ v2.755 - 2022/01/21
 
 **QUICK TAG**
 
-• New Command -->	
+• New Command
+
   • Set ColorID (by SelectionSet and Constant item override)	---> For ColorID Bakes from LowPoly.
     • --> That system doesn't mess up the Material attribution and only add modification via Constant item override and Poly SelectionSet.
     • --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
     • --> ColorID tags are unique Scenewise and MeshWise, so now you can't have one polygon that share more than one ColorID. It prevent layout issue in Shader Tree.
-
+  
   • Set ColorID (by Material Tags) ---> For ColorID Bakes from HighPoly.
     • --> Usually outside of Modo, like in Substance Painter or Marmoset Toolbag.
     • --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
