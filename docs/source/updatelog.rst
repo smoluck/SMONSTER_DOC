@@ -48,7 +48,7 @@ v2.755 - 2022/01/21
 
 **QUICK TAG**
 #. New Command -->	
-	#. Set ColorID (by SelectionSet and Constant item override)	---> For ColorID Bakes from LowPoly.
+#. Set ColorID (by SelectionSet and Constant item override)	---> For ColorID Bakes from LowPoly.
 		#. --> That system doesn't mess up the Material attribution and only add modification via Constant item override and Poly SelectionSet.
 		#. --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
 		#. --> ColorID tags are unique Scenewise and MeshWise, so now you can't have one polygon that share more than one ColorID. It prevent layout issue in Shader Tree.
@@ -245,11 +245,11 @@ v2.674 - 2021/10/19
 
 **GAME CONTENT**
 #. smo.GC.SetNewMaterialSmartRename
-	  • Create a New Material Tag
-	  • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
-	  • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
-	  • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
-	  • This command is assigned to "M" Key (via a oneclick form).
+	#. • Create a New Material Tag
+	#. • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
+	#. • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
+	#. • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
+	#. • This command is assigned to "M" Key (via a oneclick form).
 #. Meshops Popup form is now filtering available Meshops relative to your current Selection type (Vertex / Edge / Polygon / Item)
 #. Finaly exposed that new Command: smo.GC.Setup.OffsetCenterPosPreserveInstancesPos that let you redifine Center Position on selected Mesh Item, but preserve the Instances Positions in Worldspace. (Useful for CAD)
 #. Rewrite the Add Meshop Command to automatically arrange nodes when created.
@@ -422,28 +422,28 @@ v2.565 - 2021/05/26
 -------------------
 
 **SMONSTER**
-        • Right Click Context Menu now have more sub-commands Filtered for each component mode:
+#. Right Click Context Menu now have more sub-commands Filtered for each component mode:
              • MIFABOMA Commands
              • Merge Vertex (by distance preset)
              • Edge Collapse
              • Modollama Triple (by iterations count preset)
-        • Addition of Context Menu in Viewport Context Menu (Right click in viewport empty space).
+#. Addition of Context Menu in Viewport Context Menu (Right click in viewport empty space).
 
 **CAD**
-        • RebuildWithCylinder Side Count by User was added in the Pie Menus (via Axes Icons).
-        • Rebevel now support Reference System.
-        • Rebevel Bugfix when Meshes that got triangle Poly in the surrounding area around The processed selection.
-        • Smart Rebuild With Cylinder Added for better shape handling (Regular Radius Support).  (RebuildWithCylinder command have been removed).
-        • Copy / Cut to Child Mesh command Rework with Select Coplanar Modes and dedicated Pie Menu / Icons
+#. RebuildWithCylinder Side Count by User was added in the Pie Menus (via Axes Icons).
+#. Rebevel now support Reference System.
+#. Rebevel Bugfix when Meshes that got triangle Poly in the surrounding area around The processed selection.
+#. Smart Rebuild With Cylinder Added for better shape handling (Regular Radius Support).  (RebuildWithCylinder command have been removed).
+#. Copy / Cut to Child Mesh command Rework with Select Coplanar Modes and dedicated Pie Menu / Icons
 
 **GAME CONTENT**
-        • MoveRotateCenter wrapped command added that wasn't supporting ReferenceSystem.
-        • Fullscreen ToggleCommand added.
+#. MoveRotateCenter wrapped command added that wasn't supporting ReferenceSystem.
+#. Fullscreen ToggleCommand added.
 
 **MIFABOMA**
-        • Bugfix on Radial Array with World Mode in Component Mode.
-        • Bugfix on Mirror that wasn't saving user settings.
-        • FlipOnAxis now support VertexNormalMap and update it.
+#. •Bugfix on Radial Array with World Mode in Component Mode.
+#. •Bugfix on Mirror that wasn't saving user settings.
+#. •FlipOnAxis now support VertexNormalMap and update it.
 
 
 ----------------------
@@ -912,4 +912,4 @@ rev 32 - 2020/05/04
 rev 26 - 2020/04/30
 
         • Fixed some issue on tool-tips and forms (UV and Cleanup).
-        • Added the new Slice and Flip On Axis tools.
+        • Added the new Slice and Flip On Axis tools.   
