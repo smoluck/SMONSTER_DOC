@@ -234,29 +234,29 @@ v2.674 - 2021/10/19
 -------------------
 
 **SMONSTER**
-#. Documentation WebLinks and Dedicated Menu are stored as a unique Kit now. --> SMO_DOC
+* • Documentation WebLinks and Dedicated Menu are stored as a unique Kit now. --> SMO_DOC
 
 **DOC**
-#. Update on Documentation.
-#. New Command to open Youtube Video links using User preferences (Resolution)
+* • Update on Documentation.
+* • New Command to open Youtube Video links using User preferences (Resolution)
 
 **BATCH**
-#. Added an Option in Preferences to Convert All Meshes Item to Static Meshes when Ouputing Data to LXO File.
+* • Added an Option in Preferences to Convert All Meshes Item to Static Meshes when Ouputing Data to LXO File.
 
 **GAME CONTENT**
-#. smo.GC.SetNewMaterialSmartRename
-	  • Create a New Material Tag
-	  • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
-	  • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
-	  • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
-	  • This command is assigned to "M" Key (via a oneclick form).
-#. Meshops Popup form is now filtering available Meshops relative to your current Selection type (Vertex / Edge / Polygon / Item)
-#. Finaly exposed that new Command: smo.GC.Setup.OffsetCenterPosPreserveInstancesPos that let you redifine Center Position on selected Mesh Item, but preserve the Instances Positions in Worldspace. (Useful for CAD)
-#. Rewrite the Add Meshop Command to automatically arrange nodes when created.
-#. Updated the AVP Game viewport Preset (Independent  Rotation, Position and Scale are now enabled).
-#. Bugfix for QuickCreateCameraMatcherScene to not be Case Sensitive (both .jpg and .JPG are now supported).
-#. AVP Game viewport Preset are now loaded according to yourModo Version. It will solve issue with post 15.0 Presets.
-#. AVP Game viewport Preset is now set to Progressive Antialiasing by default via Numpad 6 Key. 
+* • smo.GC.SetNewMaterialSmartRename
+* • Create a New Material Tag
+* • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
+* • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
+* • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
+* • This command is assigned to "M" Key (via a oneclick form).
+* • Meshops Popup form is now filtering available Meshops relative to your current Selection type (Vertex / Edge / Polygon / Item)
+* • Finaly exposed that new Command: smo.GC.Setup.OffsetCenterPosPreserveInstancesPos that let you redifine Center Position on selected Mesh Item, but preserve the Instances Positions in Worldspace. (Useful for CAD)
+* • Rewrite the Add Meshop Command to automatically arrange nodes when created.
+* • Updated the AVP Game viewport Preset (Independent  Rotation, Position and Scale are now enabled).
+* • Bugfix for QuickCreateCameraMatcherScene to not be Case Sensitive (both .jpg and .JPG are now supported).
+* • AVP Game viewport Preset are now loaded according to yourModo Version. It will solve issue with post 15.0 Presets.
+* • AVP Game viewport Preset is now set to Progressive Antialiasing by default via Numpad 6 Key. 
 
     
 **VENOM**
