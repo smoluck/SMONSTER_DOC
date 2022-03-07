@@ -16,6 +16,7 @@ v3.00 - 2022/03/03
 #. You're free to load it on earlier releases of Modo (from 14.0), but i won't provide any bugfix on earlier release of Modo than 15.0v1 from 2022 March 2th in order to get my focus on Future plans for Modo 16.X series.
 
 **GAME CONTENT**
+
 #. New Command -->	EdgeBoundarySimpleFuse to fuse (without Projection) an Open Edge Boundary loop ( V Norm data is kept from BG Mesh of set Self if mouse over empty area in viewport).
 #. New Command --> 	SplitUDIMtoMesh to separate a mesh based on UDIM Polygons layout. It create New Mesh Layers, using target Mesh Name + PrefixName + UDIM ID from current selected Mesh.
 #. Bugfixes on EdgeBoundaryProjectToBGnFuse to support Self Project onto same mesh. Also hiding other meshes for TransferVNData automatically
@@ -23,6 +24,7 @@ v3.00 - 2022/03/03
 #. Layout change in right click Context Menus to add more options and commands.
 
 **RIZOMUV Livelink**
+
 #. MODO 15.2v2 Support
 #. RizomUV 2022.0 Support
 #. Bugfix for those who also are using Vertex Normals maps in their workflow. In any case the kit won't update in Modo you could still open the Temp FBX File in order to get back all the data from Materials to VNrm to UV's of course.
@@ -245,11 +247,11 @@ v2.674 - 2021/10/19
 
 **GAME CONTENT**
 #. smo.GC.SetNewMaterialSmartRename
-	#. • Create a New Material Tag
-	#. • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
-	#. • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
-	#. • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
-	#. • This command is assigned to "M" Key (via a oneclick form).
++ Create a New Material Tag
++ Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
++ •Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
++ • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
++ • This command is assigned to "M" Key (via a oneclick form).
 #. Meshops Popup form is now filtering available Meshops relative to your current Selection type (Vertex / Edge / Polygon / Item)
 #. Finaly exposed that new Command: smo.GC.Setup.OffsetCenterPosPreserveInstancesPos that let you redifine Center Position on selected Mesh Item, but preserve the Instances Positions in Worldspace. (Useful for CAD)
 #. Rewrite the Add Meshop Command to automatically arrange nodes when created.
@@ -423,10 +425,10 @@ v2.565 - 2021/05/26
 
 **SMONSTER**
 #. Right Click Context Menu now have more sub-commands Filtered for each component mode:
-   • MIFABOMA Commands
-   • Merge Vertex (by distance preset)
-   • Edge Collapse
-   • Modollama Triple (by iterations count preset)
+             • MIFABOMA Commands
+             • Merge Vertex (by distance preset)
+             • Edge Collapse
+             • Modollama Triple (by iterations count preset)
 #. Addition of Context Menu in Viewport Context Menu (Right click in viewport empty space).
 
 **CAD**
