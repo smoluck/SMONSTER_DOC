@@ -423,10 +423,10 @@ v2.565 - 2021/05/26
 
 **SMONSTER**
 #. Right Click Context Menu now have more sub-commands Filtered for each component mode:
-             • MIFABOMA Commands
-             • Merge Vertex (by distance preset)
-             • Edge Collapse
-             • Modollama Triple (by iterations count preset)
+   • MIFABOMA Commands
+   • Merge Vertex (by distance preset)
+   • Edge Collapse
+   • Modollama Triple (by iterations count preset)
 #. Addition of Context Menu in Viewport Context Menu (Right click in viewport empty space).
 
 **CAD**
@@ -439,7 +439,7 @@ v2.565 - 2021/05/26
 **GAME CONTENT**
 #. MoveRotateCenter wrapped command added that wasn't supporting ReferenceSystem.
 #. Fullscreen ToggleCommand added.
-
+    
 **MIFABOMA**
 #. •Bugfix on Radial Array with World Mode in Component Mode.
 #. •Bugfix on Mirror that wasn't saving user settings.
