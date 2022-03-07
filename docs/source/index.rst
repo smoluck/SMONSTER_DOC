@@ -27,5 +27,9 @@ Contents
 .. toctree::
 
    kitlist
+   updatelog
+   
+.. toctree::
+
    bake
    uv

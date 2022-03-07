@@ -4,7 +4,8 @@ Installation
 .. _installation_smonster:
 
 Installation Procedure
-----------------------
+======================
+
 After downloading the Zip file from the Gumroad page, please follow those instructions and this Video:	https://youtu.be/nJjRuAxuqhU
 
 .. note::
@@ -16,6 +17,7 @@ After downloading the Zip file from the Gumroad page, please follow those instru
 
 Automatic Install (via Modo and LPK)
 ------------------------------------
+
 #. Follow this Video https://youtu.be/nJjRuAxuqhU
 #. Open Modo and Drag and Drop the LPK file into Modo Window (Modo should be started with administrator rights to unpack the files).
 #. Restart Modo
@@ -27,6 +29,7 @@ Automatic Install (via Modo and LPK)
 
 Manual Install 
 --------------
+
 #. Follow this Video https://youtu.be/nJjRuAxuqhU
 #. Open the Zip Archive **SMONSTER_V3.XX.zip** and Drag and Drop the LPK file into a temp folder.
 #. Rename the **SMONSTER_V3.XX.lpk** to a zip file **SMONSTER_V3.XX.zip**
