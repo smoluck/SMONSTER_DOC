@@ -23,13 +23,7 @@ Contents
    installation
    update
    topmenu
-   
-.. toctree::
-
    kitlist
-   updatelog
-   
-.. toctree::
-
    bake
    uv
+   updatelog
