@@ -244,6 +244,7 @@ v2.674 - 2021/10/19
 #. Added an Option in Preferences to Convert All Meshes Item to Static Meshes when Ouputing Data to LXO File.
 
 **GAME CONTENT**
+
 #. smo.GC.SetNewMaterialSmartRename
 #. Create a New Material Tag
 #. Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
@@ -257,7 +258,6 @@ v2.674 - 2021/10/19
 #. Bugfix for QuickCreateCameraMatcherScene to not be Case Sensitive (both .jpg and .JPG are now supported).
 #. AVP Game viewport Preset are now loaded according to yourModo Version. It will solve issue with post 15.0 Presets.
 #. AVP Game viewport Preset is now set to Progressive Antialiasing by default via Numpad 6 Key. 
-
     
 **VENOM**
 #. Bugfix when working on meshes that was having more than one Rotation Transform items (FBX coming from other package like 3DSMax or Blender for instance)
