@@ -37,6 +37,7 @@ v2.756 - 2022/01/28
 -------------------
 
 **MIFABOMA**
+
 • Improvement and Bugfix on RADIAL ARRAY and MIRROR commands that now support:
   • Both Meshes and MeshInstances (instead of only regular Meshes only).
   • Multiple Items selected at once. They will now process duplication over multiple selected items as intended.
@@ -49,20 +50,21 @@ v2.755 - 2022/01/21
 -------------------
 
 **QUICK TAG**
+
 • New Command -->	
-• Set ColorID (by SelectionSet and Constant item override)	---> For ColorID Bakes from LowPoly.
-  • --> That system doesn't mess up the Material attribution and only add modification via Constant item override and Poly SelectionSet.
-  • --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
-  • --> ColorID tags are unique Scenewise and MeshWise, so now you can't have one polygon that share more than one ColorID. It prevent layout issue in Shader Tree.
+  • Set ColorID (by SelectionSet and Constant item override)	---> For ColorID Bakes from LowPoly.
+    • --> That system doesn't mess up the Material attribution and only add modification via Constant item override and Poly SelectionSet.
+    • --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
+    • --> ColorID tags are unique Scenewise and MeshWise, so now you can't have one polygon that share more than one ColorID. It prevent layout issue in Shader Tree.
 
-	#. Set ColorID (by Material Tags) ---> For ColorID Bakes from HighPoly.
-		#. --> Usually outside of Modo, like in Substance Painter or Marmoset Toolbag.
-		#. --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
+  • Set ColorID (by Material Tags) ---> For ColorID Bakes from HighPoly.
+    • --> Usually outside of Modo, like in Substance Painter or Marmoset Toolbag.
+    • --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
 
-#. You can recall any existing Color ID you create to override existing one, via a Gang Menu of 17 Color ID Presets (from 0 to 16)
-#. You can assign any existing Color ID by a User input value in a Pop window. 
-#. Thanks to user feedback, i've set the first 0 to 16 ColorID with ItemColorCoding inside the ShaderTree, as well as fixed colors.
-#. Passed ID #16, it will create random Color each time you create a new one.
+• You can recall any existing Color ID you create to override existing one, via a Gang Menu of 17 Color ID Presets (from 0 to 16)
+• You can assign any existing Color ID by a User input value in a Pop window. 
+• Thanks to user feedback, i've set the first 0 to 16 ColorID with ItemColorCoding inside the ShaderTree, as well as fixed colors.
+• Passed ID #16, it will create random Color each time you create a new one.
 
 **GAME CONTENT**
 #. New smo.GC.UDIMtoMaterial command to convert a Unique Material assignation to a set of Multiple Materials tag, for easy export of UDIM ready Meshes (created via Substance Painter for instance) to Unity Engine.
