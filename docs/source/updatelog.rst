@@ -10,10 +10,10 @@ UPDATES LOG
 v3.00 - 2022/03/03
 ------------------
 
-#. Initial Commit to New Release V3.
-#. It now support Modo 15.0 to 16.X releases with 100% Compatibility.
-#. All further developments will focus on support from Modo 15.0v1 to 16.X.
-#. You're free to load it on earlier releases of Modo (from 14.0), but i won't provide any bugfix on earlier release of Modo than 15.0v1 from 2022 March 2th in order to get my focus on Future plans for Modo 16.X series.
+• Initial Commit to New Release V3.
+• It now support Modo 15.0 to 16.X releases with 100% Compatibility.
+• All further developments will focus on support from Modo 15.0v1 to 16.X.
+• You're free to load it on earlier releases of Modo (from 14.0), but i won't provide any bugfix on earlier release of Modo than 15.0v1 from 2022 March 2th in order to get my focus on Future plans for Modo 16.X series.
 
 **GAME CONTENT**
 
@@ -247,11 +247,11 @@ v2.674 - 2021/10/19
 
 **GAME CONTENT**
 #. smo.GC.SetNewMaterialSmartRename
-+ Create a New Material Tag
-+ Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
-+ •Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
-+ • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
-+ • This command is assigned to "M" Key (via a oneclick form).
+	#. • Create a New Material Tag
+	#. • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
+	#. • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
+	#. • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
+	#. • This command is assigned to "M" Key (via a oneclick form).
 #. Meshops Popup form is now filtering available Meshops relative to your current Selection type (Vertex / Edge / Polygon / Item)
 #. Finaly exposed that new Command: smo.GC.Setup.OffsetCenterPosPreserveInstancesPos that let you redifine Center Position on selected Mesh Item, but preserve the Instances Positions in Worldspace. (Useful for CAD)
 #. Rewrite the Add Meshop Command to automatically arrange nodes when created.
