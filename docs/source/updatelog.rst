@@ -17,17 +17,17 @@ v3.00 - 2022/03/03
 
 **GAME CONTENT**
 
-#. New Command -->	EdgeBoundarySimpleFuse to fuse (without Projection) an Open Edge Boundary loop ( V Norm data is kept from BG Mesh of set Self if mouse over empty area in viewport).
-#. New Command --> 	SplitUDIMtoMesh to separate a mesh based on UDIM Polygons layout. It create New Mesh Layers, using target Mesh Name + PrefixName + UDIM ID from current selected Mesh.
-#. Bugfixes on EdgeBoundaryProjectToBGnFuse to support Self Project onto same mesh. Also hiding other meshes for TransferVNData automatically
-#. Transfer VNorm from BG Mesh now have an option to "Lock" edited component when the command is used. Toggle is set to off by default. It is located in the GC Options under Modo Preferences Window.
-#. Layout change in right click Context Menus to add more options and commands.
+• New Command -->	EdgeBoundarySimpleFuse to fuse (without Projection) an Open Edge Boundary loop ( V Norm data is kept from BG Mesh of set Self if mouse over empty area in viewport).
+• New Command --> 	SplitUDIMtoMesh to separate a mesh based on UDIM Polygons layout. It create New Mesh Layers, using target Mesh Name + PrefixName + UDIM ID from current selected Mesh.
+• Bugfixes on EdgeBoundaryProjectToBGnFuse to support Self Project onto same mesh. Also hiding other meshes for TransferVNData automatically
+• Transfer VNorm from BG Mesh now have an option to "Lock" edited component when the command is used. Toggle is set to off by default. It is located in the GC Options under Modo Preferences Window.
+• Layout change in right click Context Menus to add more options and commands.
 
 **RIZOMUV Livelink**
 
-#. MODO 15.2v2 Support
-#. RizomUV 2022.0 Support
-#. Bugfix for those who also are using Vertex Normals maps in their workflow. In any case the kit won't update in Modo you could still open the Temp FBX File in order to get back all the data from Materials to VNrm to UV's of course.
+• MODO 15.2v2 Support
+• RizomUV 2022.0 Support
+• Bugfix for those who also are using Vertex Normals maps in their workflow. In any case the kit won't update in Modo you could still open the Temp FBX File in order to get back all the data from Materials to VNrm to UV's of course.
 
 
 
@@ -37,9 +37,9 @@ v2.756 - 2022/01/28
 -------------------
 
 **MIFABOMA**
-#. Improvement and Bugfix on RADIAL ARRAY and MIRROR commands that now support:
-#. --> Both Meshes and MeshInstances (instead of only regular Meshes only).
-#. --> Multiple Items selected at once. They will now process duplication over multiple selected items as intended.
+• Improvement and Bugfix on RADIAL ARRAY and MIRROR commands that now support:
+  • Both Meshes and MeshInstances (instead of only regular Meshes only).
+  • Multiple Items selected at once. They will now process duplication over multiple selected items as intended.
 
 
 
@@ -49,11 +49,11 @@ v2.755 - 2022/01/21
 -------------------
 
 **QUICK TAG**
-#. New Command -->	
-#. Set ColorID (by SelectionSet and Constant item override)	---> For ColorID Bakes from LowPoly.
-		#. --> That system doesn't mess up the Material attribution and only add modification via Constant item override and Poly SelectionSet.
-		#. --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
-		#. --> ColorID tags are unique Scenewise and MeshWise, so now you can't have one polygon that share more than one ColorID. It prevent layout issue in Shader Tree.
+• New Command -->	
+• Set ColorID (by SelectionSet and Constant item override)	---> For ColorID Bakes from LowPoly.
+  • --> That system doesn't mess up the Material attribution and only add modification via Constant item override and Poly SelectionSet.
+  • --> Those resulting Meshes can be exported as FBX and Retain Color in Diffuse.
+  • --> ColorID tags are unique Scenewise and MeshWise, so now you can't have one polygon that share more than one ColorID. It prevent layout issue in Shader Tree.
 
 	#. Set ColorID (by Material Tags) ---> For ColorID Bakes from HighPoly.
 		#. --> Usually outside of Modo, like in Substance Painter or Marmoset Toolbag.
