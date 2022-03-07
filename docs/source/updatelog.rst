@@ -244,13 +244,12 @@ v2.674 - 2021/10/19
 #. Added an Option in Preferences to Convert All Meshes Item to Static Meshes when Ouputing Data to LXO File.
 
 **GAME CONTENT**
-
 #. smo.GC.SetNewMaterialSmartRename
-#. Create a New Material Tag
-#. Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
-#. Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
-#. Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
-#. This command is assigned to "M" Key (via a oneclick form).
+	  • Create a New Material Tag
+	  • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
+	  • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
+	  • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
+	  • This command is assigned to "M" Key (via a oneclick form).
 #. Meshops Popup form is now filtering available Meshops relative to your current Selection type (Vertex / Edge / Polygon / Item)
 #. Finaly exposed that new Command: smo.GC.Setup.OffsetCenterPosPreserveInstancesPos that let you redifine Center Position on selected Mesh Item, but preserve the Instances Positions in Worldspace. (Useful for CAD)
 #. Rewrite the Add Meshop Command to automatically arrange nodes when created.
@@ -258,6 +257,7 @@ v2.674 - 2021/10/19
 #. Bugfix for QuickCreateCameraMatcherScene to not be Case Sensitive (both .jpg and .JPG are now supported).
 #. AVP Game viewport Preset are now loaded according to yourModo Version. It will solve issue with post 15.0 Presets.
 #. AVP Game viewport Preset is now set to Progressive Antialiasing by default via Numpad 6 Key. 
+
     
 **VENOM**
 #. Bugfix when working on meshes that was having more than one Rotation Transform items (FBX coming from other package like 3DSMax or Blender for instance)
@@ -315,15 +315,15 @@ v2.610 - 2021/06/25
 #. Rewrite the Remapping Information in all KeymapCommander Remapping Dialog.
 
 **GAME CONTENT**
-*. 15.1 KeymapCommander added to set back Original Modo behavior, even if new features like Mini-Properties have been added.
-*. Global and Item Mode -> C = Channel Haul
-*. view3DOverlay3D and Component Mode -> C = Edge Knife
-*. view3DOverlay3D and Component Mode -> Shift-C = Poly Knife
-*. view3DOverlay3D and Component Mode -> Alt-C = Poly Loop Slice
-*. Global and ContextLess -> SpaceBar = Original Modo Behavior
-*. Global and ContextLess -> Shift-SpaceBar = Mini-Properties Popover
-*. Set the Copy/Paste PieMenu remapping to Main Remapping (will appear only in ComponentMode via Ctrl + Shift + C)
-*. smo.QuickCreateCameraMatchSetup command added. (to set up Camera Match from a set of JPG Images (found in defined Folder)
+#. Modo 15.1 KeymapCommander added to set back Original Modo behavior, even if new features like Mini-Properties have been added.
+	  • Global and Item Mode -> C = Channel Haul
+	  • view3DOverlay3D and Component Mode -> C = Edge Knife
+	  • view3DOverlay3D and Component Mode -> Shift-C = Poly Knife
+	  • view3DOverlay3D and Component Mode -> Alt-C = Poly Loop Slice
+	  • Global and ContextLess -> SpaceBar = Original Modo Behavior
+	  • Global and ContextLess -> Shift-SpaceBar = Mini-Properties Popover
+#. Set the Copy/Paste PieMenu remapping to Main Remapping (will appear only in ComponentMode via Ctrl + Shift + C)
+#. smo.QuickCreateCameraMatchSetup command added. (to set up Camera Match from a set of JPG Images (found in defined Folder)
 
 
 
@@ -349,7 +349,7 @@ v2.600 - 2021/06/16
 
 
 
-.. _2590:
+.. _2600:
 
 v2.590 - 2021/06/07
 -------------------
@@ -446,22 +446,15 @@ v2.565 - 2021/05/26
         • FlipOnAxis now support VertexNormalMap and update it.
 
 
-
-.. _2542:
-
+----------------------
 v2.542 - 2021/05/18
--------------------
-
 **CAD**
         • Bugfix on Rebevel.
         • Rebevel / RebuildPolystrip now support Item Auto Selection in Component Mode (if you wasn't selecting the mesh before it will select it for you).
 
 
-
-.. _2540:
-
+----------------------
 v2.540 - 2021/05/17
--------------------
 
 **SMONSTER**
         • Added Item / Poly / Edge / Vertex - Right Click Context Menu with Smonster Commands 
@@ -497,11 +490,8 @@ CLEANUP:
         • Added Rename All Instance by Source Mesh Name command.
 
 
-
-.. _2510:
-
+----------------------
 v2.510 - 2021/05/04
--------------------
 
 **SMONSTER**
         • CAD / GAME CONTENT / MIFABOMA / CLEANUP got some Bugfix when user was using their own Copy / Paste / Deselect mode in preferences.
@@ -518,11 +508,8 @@ v2.510 - 2021/05/04
         • Bugfix - SelectCoplanar Poly.
 
 
-
-.. _2502:
-
+----------------------
 v2.502 - 2021/04/30
--------------------
 
 **SMONSTER**
         • Global BugFix on Delete command in Modo (that was asking for confirmation to delete Items / Component. (updated on Macro and Scripts))
@@ -568,11 +555,8 @@ v2.502 - 2021/04/30
           (Now he commands automatically select it for you at least if you have one Polygon Selected.)
 
 
-
-.. _2473:
-
+----------------------
 v2.473 - 2021/04/18
--------------------
 
 **SMONSTER**
         • Added new command to Set All Smonster Keymaps To True (Set to Default Keymaps)
@@ -599,12 +583,8 @@ COLOR BAR:
             • Rebuild Radial Flat
             • Rebuild Radial Tube
 
-
-
-.. _2460:
-
-v2.460 - 2021/04/11
 -------------------
+v2.460 - 2021/04/11
 
 **SMONSTER**
         • Icons Added for CLEANUP
@@ -628,12 +608,8 @@ BAKE & MARMOSET LL:
                 • Regular rebuild
                 • Normalized Width
 
-
-
-.. _2424:
-
-v2.424 - 2021/03/10
--------------------
+--------------------
+Rev 424 - 2021/03/10
 
 **SMONSTER**
         • Icons Added for BAKE and BATCH
@@ -652,11 +628,8 @@ ALL LIVELINKS Kits:
         • Added a Direct Link to their respective Website under the Tail Menus
 
 
-
-.. _2416:
-
-v2.416 - 2021/02/24
--------------------
+--------------------
+Rev 416 - 2021/02/24
 
 **SMONSTER**
         • Compatibility upgrade to 15.X release (this include the current Public Beta).
@@ -676,11 +649,8 @@ PIXAFLUX LIVELINK:
         • Bugfix on still present Keymap.cfg even if keymapCommander was introduced.
 
 
-
-.. _2398:
-
-v2.398 - 2021/02/14
--------------------
+--------------------
+Rev 398 - 2021/02/14
 
 **GAME CONTENT**
         • Bugfix on (Ctrl + numpad "6") Keymap and "Cycle Through MatCaps" Command.
@@ -691,21 +661,15 @@ v2.398 - 2021/02/14
 		https://github.com/nidorx/matcaps
 
 
-
-.. _2395:
-
-v2.395 - 2021/02/10
--------------------
+--------------------
+Rev 395 - 2021/02/10
 
 **SMONSTER**
         • Menus and Keymap Commander Bugfixes
 
 
-
-.. _2387:
-
-v2.387 - 2021/02/06
--------------------
+--------------------
+rev 387 - 2021/02/06
 
 **SMONSTER**
         • New checkup procedure at Modo launch to see if you've updated the Kit recently.
@@ -722,11 +686,8 @@ v2.387 - 2021/02/06
         • New Render Thumbnail for Mesh Preset with a Built-in scene with Dynamic Scaled Grid.
 
 
-
-.. _2345:
-
-v2.345 - 2021/01/18
--------------------
+--------------------
+rev 345 - 2021/01/18
 
 **MARMOSET TOOLBAG LIVELINK**
         • Automatic Bake at data load.
