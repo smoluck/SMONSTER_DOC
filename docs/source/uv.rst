@@ -38,6 +38,10 @@ Training Scenes
 
 Training scenes are available from the **SMONSTER TOP MENU** / **LOAD TRAINING SCENE** / **UV**
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/rJ9OpPdxzFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 .. _uv_maincmds:
@@ -46,6 +50,19 @@ Main Commands
 -------------
 
 For any unwrap procedure there is a set of 3 smart projection commands. Each are set to specific unwrap.
+
+
+
+.. _options_uv:
+
+Options and Preferences
+-----------------------
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/05b8SxzN2Bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 .. _uv_spp:
 
@@ -82,10 +99,26 @@ SPU - Smart Projection Unwrap
 
 .. _uv_tools:
 
-UV Tools
---------
+UV Tools Menu
+-------------
 
 The **UV Tools** are a set of commands to speepup and/or automatized common actions in UV Workflow. Some are more handy daily tools for convenient help during your process. 
 
 Normalize / Fix Flipped / Pack
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/_yiSosXccpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+.. _uv_viewstyles:
+
+UV view styles
+--------------
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/8ZWKLuUkvpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
    

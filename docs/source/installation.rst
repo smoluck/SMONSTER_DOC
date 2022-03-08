@@ -6,11 +6,18 @@ Installation
 Installation Procedure
 ======================
 
-After downloading the Zip file from the Gumroad page, please follow those instructions and this Video:	https://youtu.be/nJjRuAxuqhU
+After downloading the Zip file from the Gumroad page, please follow those instructions and this Video.
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/nJjRuAxuqhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .. note::
 
    (If you are an owner of SMONSTER V1 or v2, please delete the SMONSTER folder from your Kits folder before install it the installation folder could be found in the Content folder of Modo. You just have to open Modo and open that folder location via the menu **System** / **Open Content folder** )
+
+
+
 
 
 .. _installation_smonster_automatic:
@@ -18,7 +25,6 @@ After downloading the Zip file from the Gumroad page, please follow those instru
 Automatic Install (via Modo and LPK)
 ------------------------------------
 
-#. Follow this Video https://youtu.be/nJjRuAxuqhU
 #. Open Modo and Drag and Drop the LPK file into Modo Window (Modo should be started with administrator rights to unpack the files).
 #. Restart Modo
 #. Now you're ready to go.
@@ -30,7 +36,6 @@ Automatic Install (via Modo and LPK)
 Manual Install 
 --------------
 
-#. Follow this Video https://youtu.be/nJjRuAxuqhU
 #. Open the Zip Archive **SMONSTER_V3.XX.zip** and Drag and Drop the LPK file into a temp folder.
 #. Rename the **SMONSTER_V3.XX.lpk** to a zip file **SMONSTER_V3.XX.zip**
 #. Open you Modo Content Folder and create a new folder under Kits called SMONSTER, and unzip the files from the last renamed zip in it.
@@ -48,3 +53,14 @@ Installation note for MARMOSET LIVELINK
 .. note::
 
     Also check your **Modo Preferences**/**Defaults**/**Application**/**Item Index Style** It should be set to (Underscore ) : Item_2
+    
+    
+
+.. _keymaps_smonster:
+
+Keymaps system
+--------------
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/nJjRuAxuqhU?start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
