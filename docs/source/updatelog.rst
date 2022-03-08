@@ -7,7 +7,7 @@ UPDATES LOG
    
 .. _3000:
 
-v3.00 - 2022/03/03
+v3.000 - 2022/03/03
 ------------------
 
 • Initial Commit to New Release V3.
