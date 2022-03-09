@@ -4,8 +4,6 @@ BATCH Kit
 .. autosummary::
    :toctree: generated
 
-
-
 .. _basic_batch:
 
 Concept
@@ -17,8 +15,8 @@ Concept
 
 .. _keymaps_batch:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • Only available from Kit tail menu (Top Right corner of Modo UI)
 

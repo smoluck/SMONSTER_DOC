@@ -25,8 +25,8 @@ Concept
 
 .. _keymaps_mifaboma:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • Main Pie Menu     **Ctr ALT M**(on PC)      OR     **Cmd Alt M** (on Mac)
 

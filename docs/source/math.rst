@@ -17,8 +17,8 @@ Concept
 
 .. _keymaps_math:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • COLOR BAR - By Type       **Shift F1**
 • COLOR BAR - By Color      **Shift F2**

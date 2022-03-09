@@ -17,8 +17,8 @@ Concept
 
 .. _keymaps_cad:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • The Pie Menu is available via **Ctrl Alt H**
 

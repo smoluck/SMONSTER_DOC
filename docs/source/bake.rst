@@ -15,8 +15,8 @@ Concept
 
 .. _keymaps_bake:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • Only available from Kit tail menu (Top Right corner of Modo UI)
 

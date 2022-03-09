@@ -1,7 +1,8 @@
-SMONSTER TOP MENU
-==================
+Top Menu UI
+===========
 
-This menu is available from **SMONSTER TOP MENU** at the top part of Modo UI.
+This menu is the HUB to control all the kit. It is available from **SMONSTER** section at the top part of Modo UI.
+
 
 
 .. _topmenu_documentation:
@@ -9,7 +10,9 @@ This menu is available from **SMONSTER TOP MENU** at the top part of Modo UI.
 Documentation
 -------------
 
-* this menu regroup all the current Videos links that describes the usage of the tools organized by kits name sections. 
+This menu regroup all the current Videos links that describes the usage of the tools organized by kits name sections.
+It also let you access to Keymaps system , Training Scenes and Options.
+
 
 
 .. _topmenu_trainingscene:
@@ -20,12 +23,14 @@ Load Training Scene
 This menu regroup all the dedicated example scene files for the different kits.
 
 
+
 .. _topmenu_kittailmenu:
 
 Kit Tail Menu
 -------------
 
 This menu regroup all the Kits submenu for a quick access.
+
 
 
 .. _topmenu_smonsteroptions:
@@ -36,12 +41,14 @@ Options Menu
 This menu regroup all the Kits options that are available from the **Modo Preferences** window.
 
 
+
 .. _topmenu_quickkeymaps:
 
 Quick Keymaps Menu
 ------------------
 
 This menu regroup all the Kits Quick Keymaps command that help you set the keymaps to default.
+
 
 
 .. _topmenu_masterkeymapscommander:

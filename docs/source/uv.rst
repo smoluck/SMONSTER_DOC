@@ -22,8 +22,8 @@ Concept
 
 .. _uv_keymaps:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 *. From the 3D viewport, you can access to the UV Pie Menu via ``Q`` key.
 or

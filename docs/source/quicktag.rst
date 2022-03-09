@@ -17,8 +17,8 @@ Concept
 
 .. _keymaps_quicktag:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • Pie Menu      **Ctrl Alt T** (on PC)  OR  **Cmd Alt T** (on Mac)
 

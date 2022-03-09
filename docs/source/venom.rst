@@ -17,8 +17,8 @@ Concept
 
 .. _keymaps_venom:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • Vertex Normal Main Pie-Menu from anywhere via **Ctrl Alt N** (on PC)  OR  **Cmd Alt N** (on Mac)
 

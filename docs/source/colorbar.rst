@@ -4,8 +4,6 @@ COLOR BAR Kit
 .. autosummary::
    :toctree: generated
 
-
-
 .. _basic_colorbar:
 
 Concept
@@ -17,8 +15,8 @@ Concept
 
 .. _keymaps_colorbar:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • COLOR BAR - By Type       **Shift F1**
 • COLOR BAR - By Color      **Shift F2**

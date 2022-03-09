@@ -17,8 +17,8 @@ Concept
 
 .. _keymaps_pixafluxll:
 
-Keymaps
--------
+Default Keymaps
+---------------
 
 • Main Menu     **CTRL ALT Shift P**
 
