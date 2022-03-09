@@ -26,11 +26,6 @@ Contents
    
 .. toctree::
 
-   kitlist
-   updatelog
-   
-.. toctree::
-
    bake
    batch
    cad
@@ -42,3 +37,8 @@ Contents
    quicktag
    uv
    venom
+   
+.. toctree::
+
+   kitlist
+   updatelog
