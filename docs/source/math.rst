@@ -20,8 +20,7 @@ Concept
 Default Keymaps
 ---------------
 
-• Available from Kit tail menu (Top Right corner of Modo UI):
-|kit_icon_math|
+• Available from Kit tail menu (Top Right corner of Modo UI): |kit_icon_math|
 
 .. |kit_icon_math| image:: /image/kit_icon_math.png
                 :scale: 100

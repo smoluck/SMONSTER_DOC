@@ -17,8 +17,7 @@ Concept
 Default Keymaps
 ---------------
 
-• kit icon: |kit_icon_bake|
-• Only available from Kit tail menu (Top Right corner of Modo UI)
+• Available from Kit tail menu (Top Right corner of Modo UI): |kit_icon_bake|
 
 .. |kit_icon_bake| image:: /image/kit_icon_bake.png
                 :scale: 100

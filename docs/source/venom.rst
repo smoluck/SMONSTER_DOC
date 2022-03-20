@@ -20,8 +20,7 @@ Concept
 Default Keymaps
 ---------------
 
-• Available from Kit tail menu (Top Right corner of Modo UI):
-|kit_icon_venom|
+• Available from Kit tail menu (Top Right corner of Modo UI): |kit_icon_venom|
 
 .. |kit_icon_venom| image:: /image/kit_icon_venom.png
                 :scale: 100

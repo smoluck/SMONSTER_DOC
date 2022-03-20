@@ -25,8 +25,7 @@ Concept
 Default Keymaps
 ---------------
 
-• Available from Kit tail menu (Top Right corner of Modo UI):
-|kit_icon_uv|
+• Available from Kit tail menu (Top Right corner of Modo UI): |kit_icon_uv|
 
 .. |kit_icon_uv| image:: /image/kit_icon_uv.png
                 :scale: 100

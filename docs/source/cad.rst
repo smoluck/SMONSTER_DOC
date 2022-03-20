@@ -31,8 +31,7 @@ Default Keymaps
 ---------------
 
 
-• Available from Kit tail menu (Top Right corner of Modo UI):
-|kit_icon_cad|
+• Available from Kit tail menu (Top Right corner of Modo UI): |kit_icon_cad|
 
 .. |kit_icon_cad| image:: /image/kit_icon_cad.png
                 :scale: 100

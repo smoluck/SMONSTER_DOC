@@ -20,8 +20,7 @@ Concept
 Default Keymaps
 ---------------
 
-• Available from Kit tail menu (Top Right corner of Modo UI):
-|kit_icon_quicktag|
+• Available from Kit tail menu (Top Right corner of Modo UI): |kit_icon_quicktag|
 
 .. |kit_icon_quicktag| image:: /image/kit_icon_quicktag.png
                 :scale: 100

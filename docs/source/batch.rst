@@ -18,8 +18,7 @@ Concept
 Default Keymaps
 ---------------
 
-• Available from Kit tail menu (Top Right corner of Modo UI):
-|kit_icon_batch|
+• Available from Kit tail menu (Top Right corner of Modo UI): |kit_icon_batch|
 
 .. |kit_icon_batch| image:: /image/kit_icon_batch.png
                 :scale: 100

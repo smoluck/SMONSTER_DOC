@@ -18,8 +18,7 @@ Concept
 Default Keymaps
 ---------------
 
-• Available from Kit tail menu (Top Right corner of Modo UI):
-|kit_icon_colorbar|
+• Available from Kit tail menu (Top Right corner of Modo UI): |kit_icon_colorbar|
 
 .. |kit_icon_colorbar| image:: /image/kit_icon_colorbar.png
                 :scale: 100
