@@ -17,8 +17,10 @@ Concept
 Default Keymaps
 ---------------
 
-• Only available from Kit tail menu (Top Right corner of Modo UI)
+• Only available from Kit tail menu (Top Right corner of Modo UI) |kit_bake|
 
+.. |kit_bake| image:: image/kit_bake
+                :scale: 32 
 
 
 .. _trainingscene_bake:
