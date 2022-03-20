@@ -9,8 +9,7 @@ BAKE Kit
 Concept
 -------
     
-   The XXXX kit is
-
+   The BAKE kit is designed to let you organize, tag and automatically export your LowPoly / HighPoly and Cage Meshes in a convenient way that is both simple and structured for preventing any issue during Data processing in your target app for your bakes.
 
 
 .. _keymaps_bake:
@@ -48,3 +47,5 @@ Overview
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/2Tq6XeEh9ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
