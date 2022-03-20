@@ -20,8 +20,13 @@ Concept
 Default Keymaps
 ---------------
 
-• Pie Menu      **Ctrl Alt T** (on PC)  OR  **Cmd Alt T** (on Mac)
+• Available from Kit tail menu (Top Right corner of Modo UI):
+|kit_icon_quicktag|
 
+.. |kit_icon_quicktag| image:: /image/kit_icon_quicktag.png
+                :scale: 100
+
+• Pie Menu      **Ctrl Alt T** (on PC)  OR  **Cmd Alt T** (on Mac)
 
 
 

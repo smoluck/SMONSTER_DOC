@@ -25,6 +25,13 @@ Concept
 Default Keymaps
 ---------------
 
+• Available from Kit tail menu (Top Right corner of Modo UI):
+|kit_icon_uv|
+
+.. |kit_icon_uv| image:: /image/kit_icon_uv.png
+                :scale: 100
+
+
 *. From the 3D viewport, you can access to the UV Pie Menu via ``Q`` key.
 or
 *. From the UV viewport, you'll access to the UV tools via ``Ctrl + Q`` **UV** section.

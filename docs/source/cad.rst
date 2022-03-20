@@ -11,7 +11,17 @@ CAD Kit
 Concept
 -------
     
-   The XXXX kit is
+   The CAD kit is designed to help cleaning meshes that comes from CAD data.
+
+   It consist of 4 different categories of tools / scripts / macros:
+
+   1. CAD for Preparing and Cleaning data that comes from CAD files and simplify the workflow on this task.
+
+   2. REBEVEL for rebuilding existing bevels without changing their value and curvature. (Work on Quad polystrip only actually)
+
+   3. REBUILD CYLINDER to decrease existing tesselation of High poly selection of polygons along the 3 different axis. Perfect for reducing Polycount of a CAD mesh, to create a lower poly mesh for further use in MOP Booleans kit of William Vaughan for example or via the simple Boolean Tools that Modo include already.
+
+   4. REBUILD HOLE same as Rebuild Cylinder but for holes.
 
 
 
@@ -19,6 +29,13 @@ Concept
 
 Default Keymaps
 ---------------
+
+
+• Available from Kit tail menu (Top Right corner of Modo UI):
+|kit_icon_cad|
+
+.. |kit_icon_cad| image:: /image/kit_icon_cad.png
+                :scale: 100
 
 • The Pie Menu is available via **Ctrl Alt H**
 

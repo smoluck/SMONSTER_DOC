@@ -18,6 +18,12 @@ Concept
 Default Keymaps
 ---------------
 
+• Available from Kit tail menu (Top Right corner of Modo UI):
+|kit_icon_colorbar|
+
+.. |kit_icon_colorbar| image:: /image/kit_icon_colorbar.png
+                :scale: 100
+
 • COLOR BAR - By Type       **Shift F1**
 • COLOR BAR - By Color      **Shift F2**
 • COLOR BAR - Cycle         **Shift F4**

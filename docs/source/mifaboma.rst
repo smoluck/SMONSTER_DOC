@@ -28,6 +28,12 @@ Concept
 Default Keymaps
 ---------------
 
+• Available from Kit tail menu (Top Right corner of Modo UI):
+|kit_icon_mifaboma|
+
+.. |kit_icon_mifaboma| image:: /image/kit_icon_mifaboma.png
+                :scale: 100
+
 • Main Pie Menu     **Ctr ALT M**(on PC)      OR     **Cmd Alt M** (on Mac)
 
 

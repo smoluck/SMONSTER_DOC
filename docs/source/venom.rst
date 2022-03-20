@@ -20,6 +20,12 @@ Concept
 Default Keymaps
 ---------------
 
+• Available from Kit tail menu (Top Right corner of Modo UI):
+|kit_icon_venom|
+
+.. |kit_icon_venom| image:: /image/kit_icon_venom.png
+                :scale: 100
+
 • Vertex Normal Main Pie-Menu from anywhere via **Ctrl Alt N** (on PC)  OR  **Cmd Alt N** (on Mac)
 
 • VeNom Commands available from any 3D Viewport:

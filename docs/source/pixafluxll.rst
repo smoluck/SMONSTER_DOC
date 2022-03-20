@@ -20,6 +20,12 @@ Concept
 Default Keymaps
 ---------------
 
+• Available from Kit tail menu (Top Right corner of Modo UI):
+|kit_icon_pixaflux|
+
+.. |kit_icon_pixaflux| image:: /image/kit_icon_pixaflux.png
+                :scale: 100
+
 • Main Menu     **CTRL ALT Shift P**
 
 
