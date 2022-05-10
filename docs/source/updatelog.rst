@@ -4,6 +4,25 @@ UPDATES LOG
 .. autosummary::
    :toctree: generated
    
+   
+.. _3200:
+
+v3.200 - 2022/05/10
+-------------------
+**GC**
+• Fixed an issue with Error message populating the Event Log, while using the smo.GC.SetNewMaterialSmartRename command as well as the Quick Tag - Set Mat Color ID commands.
+• (Remap the SMO GAME CONTENT MainKeymaps as the smo.GC.SetNewMaterialSmartRename now need a Boolean Argument at the end. --> "smo.GC.SetNewMaterialSmartRename 1" to show Modo Color Picker at launch)
+
+**QUICK TAG**
+• Solved a regression with latest update on Batch - Set Mat Color ID commands
+• If the Color ID command is used while in Item Mode, it will switch back to item mode, after running it.
+
+**CLEANUP**
+• Added Rename Vertex Normal Map by Modo Default name for imported FBX files --> ( FBX_normals)
+• Changed the Popup menu UI layout for better functions discoverability
+
+
+
 .. _3150:
 
 v3.150 - 2022/04/29
