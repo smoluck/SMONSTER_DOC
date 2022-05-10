@@ -9,15 +9,19 @@ UPDATES LOG
 
 v3.200 - 2022/05/10
 -------------------
+
 **GC**
+
 • Fixed an issue with Error message populating the Event Log, while using the smo.GC.SetNewMaterialSmartRename command as well as the Quick Tag - Set Mat Color ID commands.
 • (Remap the SMO GAME CONTENT MainKeymaps as the smo.GC.SetNewMaterialSmartRename now need a Boolean Argument at the end. --> "smo.GC.SetNewMaterialSmartRename 1" to show Modo Color Picker at launch)
 
 **QUICK TAG**
+
 • Solved a regression with latest update on Batch - Set Mat Color ID commands
 • If the Color ID command is used while in Item Mode, it will switch back to item mode, after running it.
 
 **CLEANUP**
+
 • Added Rename Vertex Normal Map by Modo Default name for imported FBX files --> ( FBX_normals)
 • Changed the Popup menu UI layout for better functions discoverability
 
@@ -27,10 +31,13 @@ v3.200 - 2022/05/10
 
 v3.150 - 2022/04/29
 -------------------
+
 **RIZOMUV Livelink**
+
 • MODO 16.0v1 Support
 
 **QUICK TAG**
+
 • New Command --> smo.QT.SetMatColorIDByMeshIslands (Set Color ID by Material Tag, by Polygons Continuity (Islands) on current mesh.)
 • New Command --> smo.QT.Batch.SetMatColorIDRandom (Set Color ID by Material Tag, by Polygons Continuity (Islands) over multiple MeshLayers or Scene wide.)
 • Bugfix on smo.QT.SetMatColorIDRandom / smo.QT.SetMatColorIDByUser / smo.QT.SetMatColorIDByNumber.
@@ -42,6 +49,7 @@ v3.150 - 2022/04/29
 v3.100 - 2022/04/28
 -------------------
 **GC**
+
 • New Command --> smo.GC.SplitByPart
 • New Command --> smo.GC.SplitByMaterial
 • New Command --> smo.GC.PlasticityPrepareMeshes (Command to preprocess data from OBJ import from Plasticity. Cleanup Meshes data from Plasticity creating Polygons Parts, Unwraped UVMaps and Merging Solid items.)
@@ -49,12 +57,14 @@ v3.100 - 2022/04/28
 • Bugfix Switching to AVP Shading Style (The view should now not be offset or reset in terms of Point of view).
 
 **QUICK TAG**
+
 • Introduced functions to process the color ID attribution Scene Wide and / or even By Mesh Islands (Polygon Continuity)
 • New Command --> smo.QT.Batch.SetSelSetColorIDRandomConstant (Set a random Diffuse Color override using Selection Set (polygons) and Constant item. It can runs over Selected Meshes or SceneWide, By Items or by Polygon Islands.)
 • New Command --> smo.QT.SetSelSetColorIDByMeshIslands (Set a Diffuse Color override using Selection Set (polygons) on the selected Mesh Layers by Polygons Continuity (Islands). Named the new Mat using "ColorID" as Prefix.)
 • Bugfix on the main command that where not processing the data correctly with specific user scene behavior.
 
 **UV**
+
 • Bugfix on UnwrapCylindrical to disable Auto RelaxUV Island if the Unwrap Rectangle was True and AutoRelax was True, in order to keep Rectangle result in output.
 
 
