@@ -4,11 +4,46 @@ UPDATES LOG
 .. autosummary::
    :toctree: generated
    
-   
+.. _3150:
+
+v3.150 - 2022/04/29
+-------------------
+**RIZOMUV Livelink**
+• MODO 16.0v1 Support
+
+**QUICK TAG**
+• New Command --> smo.QT.SetMatColorIDByMeshIslands (Set Color ID by Material Tag, by Polygons Continuity (Islands) on current mesh.)
+• New Command --> smo.QT.Batch.SetMatColorIDRandom (Set Color ID by Material Tag, by Polygons Continuity (Islands) over multiple MeshLayers or Scene wide.)
+• Bugfix on smo.QT.SetMatColorIDRandom / smo.QT.SetMatColorIDByUser / smo.QT.SetMatColorIDByNumber.
+
+
+
+.. _3100:
+
+v3.100 - 2022/04/28
+-------------------
+**GC**
+• New Command --> smo.GC.SplitByPart
+• New Command --> smo.GC.SplitByMaterial
+• New Command --> smo.GC.PlasticityPrepareMeshes (Command to preprocess data from OBJ import from Plasticity. Cleanup Meshes data from Plasticity creating Polygons Parts, Unwraped UVMaps and Merging Solid items.)
+• Bugfix on smo.GC.EdgeSlideProjectToBG command that wasn't releasing the EdgeSlide tool at the end of his execution.
+• Bugfix Switching to AVP Shading Style (The view should now not be offset or reset in terms of Point of view).
+
+**QUICK TAG**
+• Introduced functions to process the color ID attribution Scene Wide and / or even By Mesh Islands (Polygon Continuity)
+• New Command --> smo.QT.Batch.SetSelSetColorIDRandomConstant (Set a random Diffuse Color override using Selection Set (polygons) and Constant item. It can runs over Selected Meshes or SceneWide, By Items or by Polygon Islands.)
+• New Command --> smo.QT.SetSelSetColorIDByMeshIslands (Set a Diffuse Color override using Selection Set (polygons) on the selected Mesh Layers by Polygons Continuity (Islands). Named the new Mat using "ColorID" as Prefix.)
+• Bugfix on the main command that where not processing the data correctly with specific user scene behavior.
+
+**UV**
+• Bugfix on UnwrapCylindrical to disable Auto RelaxUV Island if the Unwrap Rectangle was True and AutoRelax was True, in order to keep Rectangle result in output.
+
+
+
 .. _3000:
 
 v3.000 - 2022/03/03
-------------------
+-------------------
 
 • Initial Commit to New Release V3.
 • It now support Modo 15.0 to 16.X releases with 100% Compatibility.
@@ -17,7 +52,7 @@ v3.000 - 2022/03/03
 
 **GAME CONTENT**
 
-• New Command -->	EdgeBoundarySimpleFuse to fuse (without Projection) an Open Edge Boundary loop ( V Norm data is kept from BG Mesh of set Self if mouse over empty area in viewport).
+• New Command --> EdgeBoundarySimpleFuse to fuse (without Projection) an Open Edge Boundary loop ( V Norm data is kept from BG Mesh of set Self if mouse over empty area in viewport).
 • New Command --> SplitUDIMtoMesh to separate a mesh based on UDIM Polygons layout. It create New Mesh Layers, using target Mesh Name, PrefixName, UDIM ID from current selected Mesh.
 • Bugfixes on EdgeBoundaryProjectToBGnFuse to support Self Project onto same mesh. Also hiding other meshes for TransferVNData automatically
 • Transfer VNorm from BG Mesh now have an option to "Lock" edited component when the command is used. Toggle is set to off by default. It is located in the GC Options under Modo Preferences Window.
