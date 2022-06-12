@@ -343,12 +343,13 @@ v2.674 - 2021/10/19
 **GAME CONTENT**
 
 • smo.GC.SetNewMaterialSmartRename
+
   • Create a New Material Tag
   • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
   • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
   • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
   • This command is assigned to "M" Key (via a oneclick form).
-  
+
 • Meshops Popup form is now filtering available Meshops relative to your current Selection type (Vertex / Edge / Polygon / Item)
 • Finaly exposed that new Command: smo.GC.Setup.OffsetCenterPosPreserveInstancesPos that let you redifine Center Position on selected Mesh Item, but preserve the Instances Positions in Worldspace. (Useful for CAD)
 • Rewrite the Add Meshop Command to automatically arrange nodes when created.
@@ -424,12 +425,13 @@ v2.610 - 2021/06/25
 **GAME CONTENT**
 
 • Modo 15.1 KeymapCommander added to set back Original Modo behavior, even if new features like Mini-Properties have been added.
+
   • Global and Item Mode -> C = Channel Haul
   • view3DOverlay3D and Component Mode -> C = Edge Knife
   • view3DOverlay3D and Component Mode -> Shift-C = Poly Knife
   • view3DOverlay3D and Component Mode -> Alt-C = Poly Loop Slice
   • Global and ContextLess -> SpaceBar = Original Modo Behavior
-  • lobal and ContextLess -> Shift-SpaceBar = Mini-Properties Popover
+  • Global and ContextLess -> Shift-SpaceBar = Mini-Properties Popover
 • Set the Copy/Paste PieMenu remapping to Main Remapping (will appear only in ComponentMode via Ctrl + Shift + C)
 • smo.QuickCreateCameraMatchSetup command added. (to set up Camera Match from a set of JPG Images (found in defined Folder)
 
