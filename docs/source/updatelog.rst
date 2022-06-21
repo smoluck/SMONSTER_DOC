@@ -18,9 +18,11 @@ v3.50 - 2022/06/20
 • New Command --> smo.GC.ExportSelectedMeshesAsMeshPreset (Export Selected Meshes As MeshPreset LXL file into Target Path. (optional: Define Path destination as argument))
 • New Command --> smo.GC.CreateEmptyChildMeshMatchTransform (Create a new child Mesh Item (empty) on current selected mesh item.)
 • New commands for MicroBevel Workflow:
+
   • New Command --> smo.GC.SimplifyToNGon & smo.GC.MultiSimplifyToNGon (Merge every polygons that have same coplanar polygon direction to simplify a given set of meshes. Via argument you can also update the HardEdges data for a better end result.)
   • New Command --> smo.GC.MicroBevelHardEdgesAndUpdateToSoften & smo.GC.MultiMicroBevelHardEdgesAndUpdateToSoften (Micro Bevel HardEdges (usually after a SimplyToNgon), then Soften all edges.)
   • New Command --> smo.GC.ModollamaRebuildNGontoTriangle & smo.GC.MultiModollamaRebuildNGontoTriangle (Rebuild all NGons via Modollama Triangulation command to output Triangles.)
+  
 • Bugfix on smo.GC.RenderThumbPreset
 
 **CLEANUP**
