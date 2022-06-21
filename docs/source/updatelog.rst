@@ -11,6 +11,7 @@ v3.50 - 2022/06/20
 -------------------
 
 **GC**
+
 • Update on FBX Preset Pop Up Menu to expose more options.
 • New Command --> smo.GC.ConvertToHardEdgeWorkflowUsingGeoBoundaryAsHardEdge (On current Mesh item, convert Shading Method to HardEdge Workflow using geometry boundary as "HardEdge" and set all other Edges as "Smooth".)
 • New Command --> smo.GC.ExportMeshAsMeshPreset (Export current Mesh As MeshPreset LXL file into Target Path. (optional: Define Path destination as argument))
@@ -23,6 +24,7 @@ v3.50 - 2022/06/20
 • Bugfix on smo.GC.RenderThumbPreset
 
 **CLEANUP**
+
 • PopUp menu updated
 • New Command --> smo.CLEANUP.ConvertAllSolidWorksShape (Search for all Solidworks Shape Items in the scene and convert them to regular Meshes. Delete the empty meshes in the process as well.)
 • New Command --> smo.CLEANUP.CleanupSolidWorksImport (Cleanup SolidWorks Import (from McMaster Website Data) in order to save a new scene with only one Mesh item of the imported asset. It will also convert the VertexNormals Data to HardEdgeWorkflow if needed.)
@@ -32,18 +34,20 @@ v3.50 - 2022/06/20
 • Bugfix smo.CLEANUP.RenameUVMapToDefaultSceneWise (That command now create an empty UV map if one is missing using Default UVMap name from Preferences)
 
 **BATCH**
+
 • PopUp menu updated
 • Support for SLDPRT added as Input file format (CAD file - Solidworks)
 
 **UV**
+
 • Menu and Icons (Big UI refresh)
 • Bugfix (Get UVMap Count argument not correctly exposed. It adds also a 4th argument to deselect all maps except UV maps)
 
 
 
-.. _3200:
+.. _320:
 
-v3.200 - 2022/05/10
+v3.20 - 2022/05/10
 -------------------
 
 **GC**
@@ -63,9 +67,9 @@ v3.200 - 2022/05/10
 
 
 
-.. _3150:
+.. _315:
 
-v3.150 - 2022/04/29
+v3.15 - 2022/04/29
 -------------------
 
 **RIZOMUV Livelink**
@@ -80,9 +84,9 @@ v3.150 - 2022/04/29
 
 
 
-.. _3100:
+.. _310:
 
-v3.100 - 2022/04/28
+v3.10 - 2022/04/28
 -------------------
 **GC**
 
@@ -107,7 +111,7 @@ v3.100 - 2022/04/28
 
 .. _3000:
 
-v3.000 - 2022/03/03
+v3.00 - 2022/03/03
 -------------------
 
 • Initial Commit to New Release V3.
