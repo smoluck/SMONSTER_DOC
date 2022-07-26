@@ -5,6 +5,25 @@ UPDATES LOG
    :toctree: generated
    
    
+.. _3550:
+
+v3.55 - 2022/07/18
+-------------------
+
+**SMONSTER**
+
+• Training Scene Menu switched to Vertical toolbar.
+
+**GC**
+
+• Added warning if you try to use commands that use Modollama kit without getting it activated / loaded.
+• Bugfix forms for users that got already Seneca SuperTaut function and forms in their keymapping.
+
+**UV**
+• UV Tools Menu Reordering
+
+
+
 .. _3500:
 
 v3.50 - 2022/06/20
