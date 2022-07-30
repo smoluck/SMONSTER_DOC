@@ -11,7 +11,7 @@ v3.59 - 2022/07/30
 -------------------
 
 **SMONSTER**
-• Code Optimization.
+• Code Optimization  and Command naming harmonization.
 
 **CAD**
 • Bugfix on Training Scene - Rebuild Radial (duplicated vertex causing issue for users while testing the commands).
