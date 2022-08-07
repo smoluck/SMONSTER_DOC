@@ -9,7 +9,6 @@ It offers *simple* and *intuitive* Kits to bring you a quicker workflow of creat
 
 Check out the :doc:`kitlist` section for the list of kits included in Smonster, including
 how to :ref:`installation` or :ref:`update` it.
-for the Kits include in this Kit Compilation refer to :doc:`kits`.
 
 .. note::
 
