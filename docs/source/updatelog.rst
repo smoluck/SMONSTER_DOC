@@ -5,6 +5,19 @@ UPDATES LOG
    :toctree: generated
    
    
+   
+.. _3600:
+
+v3.60 - 2022/08/08
+-------------------
+
+**SMONSTER**
+        • Public Release: Free for Everyone, Freelance and Studio
+        • "AI TOOLS" and "PCLOUD XYZ" Beta Kits added.
+
+
+
+   
 .. _3590:
 
 v3.59 - 2022/07/30
