@@ -15,7 +15,10 @@ After downloading the Zip file from the Gumroad page, please follow those instru
 .. note::
 
    (If you are an owner of SMONSTER V1 or v2, please delete the SMONSTER folder from your Kits folder before install it the installation folder could be found in the Content folder of Modo. You just have to open Modo and open that folder location via the menu **System** / **Open Content folder** )
-
+   
+   `SOURCE Edition Kit + TRAINING kit`
+   
+   - Now SMONSTER consist of the SOURCE Kit + TRAINING Kit as 2 zip archive. SMONSTER TRAINING Kit is now a separate kit. It contain all the training files.
 
 
 
