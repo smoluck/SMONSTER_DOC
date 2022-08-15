@@ -6,6 +6,20 @@ UPDATES LOG
    
    
    
+.. _3650:
+
+v3.65 - 2022/08/15
+-------------------
+
+**SMONSTER**
+        • SMO GC - Replace by Instance (From selected targets, create a copy or an instance of the last selected Mesh, with or without a Guide Mesh.)
+        • Exposition of the AI and PCLOUD kit. Bugfix on exposed files.
+        • Separated older Training Files  / Scene / Data from previous Smonster Release.
+        • now SMONSTER consist of the SOURCE Kit + TRAINING Kit as 2 zip archive.
+        • SMONSTER TRAINING Kit is now a separate kit. It contain all the training files.
+
+
+
 .. _3600:
 
 v3.60 - 2022/08/08
