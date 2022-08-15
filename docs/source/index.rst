@@ -10,9 +10,10 @@ It offers *simple* and *intuitive* Kits to bring you a quicker workflow of creat
 Check out the :doc:`kitlist` section for the list of kits included in Smonster, including
 how to :ref:`installation` or :ref:`update` it.
 
-*SOURCE Edition* Kit + *TRAINING* kit
+Content: *SOURCE Edition* Kit + *TRAINING* Kit
 
-Now SMONSTER consist of the `SOURCE <https://smoluck.gumroad.com/l/Smonster-v3>` Kit + `TRAINING <https://smoluck.gumroad.com/l/SMONSTER_TRAINING>` Kit as 2 zip archive. SMONSTER TRAINING Kit is now a separate kit. It contain all the training files.
+Now SMONSTER consist of the `SOURCE <https://smoluck.gumroad.com/l/Smonster-v3>` Kit + `TRAINING <https://smoluck.gumroad.com/l/SMONSTER_TRAINING>` Kit as 2 zip separate archive.
+
 
 .. note::
 
