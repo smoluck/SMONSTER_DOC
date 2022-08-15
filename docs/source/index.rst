@@ -12,6 +12,10 @@ how to :ref:`installation` or :ref:`update` it.
 
 .. note::
 
+*SOURCE Edition* Kit + *TRAINING* kit
+
+Now SMONSTER consist of the `SOURCE <https://smoluck.gumroad.com/l/Smonster-v3>` Kit + `TRAINING <https://smoluck.gumroad.com/l/SMONSTER_TRAINING>` Kit as 2 zip archive. SMONSTER TRAINING Kit is now a separate kit. It contain all the training files.
+
    This Documentation is under active development.
 
 Contents
