@@ -8,7 +8,7 @@ UPDATES LOG
 
 .. _4000:
 
-v4.00 - Coming Soon
+v4.00 - 2022/09/04
 -------------------
 
 **SMONSTER**
