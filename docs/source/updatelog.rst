@@ -5,18 +5,83 @@ UPDATES LOG
    :toctree: generated
    
    
-   
+
+.. _4000:
+
+v4.00 - Coming Soon
+-------------------
+
+**SMONSTER**
+
+• Support of Multiple Items and Component selection on more commands:
+
+  • smo.GC.Setup.Multi.MoveRotateCenterToSelection
+  • smo.GC.Setup.Multi.MoveRotateCenterToItemBBOXCenter
+  • smo.GC.Multi.SelectCoPlanarPoly
+  • smo.GC.Multi.DeleteByLocalAxisSides
+  • smo.GC.Multi.ItemListUnparentInPlaceRightBelowRootParent
+  • smo.GC.Multi.SplitInTwoMeshesByLocalAxisSides
+  • smo.GC.Multi.MicroBevelHardEdgesAndUpdateToSoften
+  • smo.GC.Multi.ModollamaRebuildNGontoTriangle
+  • smo.GC.Multi.SimplifyToNGon
+  • smo.GC.Multi.ExportSelectedMeshesAsMeshPreset
+  • smo.UV.Multi.UnwrapPlanar
+  • smo.UV.Multi.UnwrapRectangleOrient
+**UV**
+
+• UV Smart Unwrap Planar now support multiple Items and Component Selections for faster processing (smo.UV.Multi.UnwrapPlanar).
+
+
+**GC**
+
+• Updated Vertical PopOver Menu (Ctrl + Shift + Q) and regular Pie Menu (Ctrl + Q).
+• Replace by Instance now set the Item Color to pink on both New instances and original mesh to let you see them quickly from the Item List.
+• New Commands:
+
+  • smo.GC.ItemListUnparentInPlaceRightBelowRootParent
+    (By default, when we unparent an item (inPlace), the item move at the end of the ItemList.
+    This command make sure the unparented item can appear right bellow the Root Parent of it, in the ItemList.)
+  • Select Component by Local Axis Cmd
+    (Select Component by Local Axis (Positive / Negative))
+  • Cleanup Mirrored Mesh over World Axis Cmd
+    (Cleanup selected Mesh along a given axis Local (x, y, z) in order to remove Mirrored Opposite Side Argument boolean (Positive or Negative).
+    Then recreate instances out of that mesh along that axis.)
+  • Cleanup Mirrored Pair of Meshes over World Axis Cmd
+  • smo.GC.DeleteByLocalAxisSides
+  • smo.GC.SplitInTwoMeshesByLocalAxisSides
+  • smo.GC.ItemListUnparentInPlaceRightBelowRootParent
+
+**MIFABOMA**
+
+• New Commands:
+
+  • smo.MIFABOMA.AlignToAxisParentZero
+  • smo.MIFABOMA.AlignToAxisWorldZero
+  • smo.MIFABOMA.CleanupMirroredMeshOverLocalAxis
+  • smo.MIFABOMA.CleanupMirroredPairOfMeshesOverWorldAxis
+
+**AI**
+
+• Updated Java code for AI 2022 Compatibility.
+
+**RIZOMUV Livelink**
+
+• bugfix to remove Embeded Media in FBX export on Modo 15.1 and up
+
+
+
 .. _3650:
 
 v3.65 - 2022/08/15
 -------------------
 
 **SMONSTER**
-        • SMO GC - Replace by Instance (From selected targets, create a copy or an instance of the last selected Mesh, with or without a Guide Mesh.)
-        • Exposition of the AI and PCLOUD kit. Bugfix on exposed files.
-        • Separated older Training Files  / Scene / Data from previous Smonster Release.
-        • now SMONSTER consist of the SOURCE Kit + TRAINING Kit as 2 zip archive.
-        • SMONSTER TRAINING Kit is now a separate kit. It contain all the training files.
+
+• SMO GC - Replace by Instance (From selected targets, create a copy or an instance of the last selected Mesh, with or without a Guide Mesh.)
+• Exposition of the AI and PCLOUD kit. Bugfix on exposed files.
+• Separated older Training Files  / Scene / Data from previous Smonster Release.
+• now SMONSTER consist of the SOURCE Kit + TRAINING Kit as 2 zip archive.
+• SMONSTER TRAINING Kit is now a separate kit. It contain all the training files.
 
 
 
@@ -26,9 +91,9 @@ v3.60 - 2022/08/08
 -------------------
 
 **SMONSTER**
-        • Public Release: Free for Everyone, Freelance and Studio
-        • "AI TOOLS" and "PCLOUD XYZ" Beta Kits added.
 
+• Public Release: Free for Everyone, Freelance and Studio
+• "AI TOOLS" and "PCLOUD XYZ" Beta Kits added.
 
 
    
@@ -38,15 +103,19 @@ v3.59 - 2022/07/30
 -------------------
 
 **SMONSTER**
+
 • Code Optimization  and Command naming harmonization.
 
 **CAD**
+
 • Bugfix on Training Scene - Rebuild Radial (duplicated vertex causing issue for users while testing the commands).
 
 **BAKE**
+
 • Exposed the CreatePairsFromHighPolyMesh command in UI pop over menu as well as in Item Context Menu (right click).
 
 **GC**
+
 • Changed smo.GC.AffinitySVGRebuild Cmd to smo.GC.SplitByPolySelectionSet as it as a general usage.
 • Exposed smo.GC.SplitByPolySelectionSet in SMONSTER / Top Menu.
 • smo.GC.IsolateItemAndInstances Cmd now select automatically the source mesh in the item list even if you launched it while having an instance selected.
@@ -83,26 +152,31 @@ v3.50 - 2022/06/20
 **GC**
 
 • Update on FBX Preset Pop Up Menu to expose more options.
-• New Command --> smo.GC.ConvertToHardEdgeWorkflowUsingGeoBoundaryAsHardEdge (On current Mesh item, convert Shading Method to HardEdge Workflow using geometry boundary as "HardEdge" and set all other Edges as "Smooth".)
-• New Command --> smo.GC.ExportMeshAsMeshPreset (Export current Mesh As MeshPreset LXL file into Target Path. (optional: Define Path destination as argument))
-• New Command --> smo.GC.ExportSelectedMeshesAsMeshPreset (Export Selected Meshes As MeshPreset LXL file into Target Path. (optional: Define Path destination as argument))
-• New Command --> smo.GC.CreateEmptyChildMeshMatchTransform (Create a new child Mesh Item (empty) on current selected mesh item.)
-• New commands for MicroBevel Workflow:
+• New Commands:
 
-  • New Command --> smo.GC.SimplifyToNGon & smo.GC.MultiSimplifyToNGon (Merge every polygons that have same coplanar polygon direction to simplify a given set of meshes. Via argument you can also update the HardEdges data for a better end result.)
-  • New Command --> smo.GC.MicroBevelHardEdgesAndUpdateToSoften & smo.GC.MultiMicroBevelHardEdgesAndUpdateToSoften (Micro Bevel HardEdges (usually after a SimplyToNgon), then Soften all edges.)
-  • New Command --> smo.GC.ModollamaRebuildNGontoTriangle & smo.GC.MultiModollamaRebuildNGontoTriangle (Rebuild all NGons via Modollama Triangulation command to output Triangles.)
+  • smo.GC.ConvertToHardEdgeWorkflowUsingGeoBoundaryAsHardEdge (On current Mesh item, convert Shading Method to HardEdge Workflow using geometry boundary as "HardEdge" and set all other Edges as "Smooth".)
+  • smo.GC.ExportMeshAsMeshPreset (Export current Mesh As MeshPreset LXL file into Target Path. (optional: Define Path destination as argument))
+  • smo.GC.ExportSelectedMeshesAsMeshPreset (Export Selected Meshes As MeshPreset LXL file into Target Path. (optional: Define Path destination as argument))
+  • smo.GC.CreateEmptyChildMeshMatchTransform (Create a new child Mesh Item (empty) on current selected mesh item.)
+  • New commands for MicroBevel Workflow:
+
+    • smo.GC.SimplifyToNGon & smo.GC.Multi.SimplifyToNGon (Merge every polygons that have same coplanar polygon direction to simplify a given set of meshes. Via argument you can also update the HardEdges data for a better end result.)
+    • smo.GC.MicroBevelHardEdgesAndUpdateToSoften & smo.GC.Multi.MicroBevelHardEdgesAndUpdateToSoften (Micro Bevel HardEdges (usually after a SimplyToNgon), then Soften all edges.)
+    • smo.GC.ModollamaRebuildNGontoTriangle & smo.GC.Multi.ModollamaRebuildNGontoTriangle (Rebuild all NGons via Modollama Triangulation command to output Triangles.)
   
 • Bugfix on smo.GC.RenderThumbPreset
 
 **CLEANUP**
 
 • PopUp menu updated
-• New Command --> smo.CLEANUP.ConvertAllSolidWorksShape (Search for all Solidworks Shape Items in the scene and convert them to regular Meshes. Delete the empty meshes in the process as well.)
-• New Command --> smo.CLEANUP.CleanupSolidWorksImport (Cleanup SolidWorks Import (from McMaster Website Data) in order to save a new scene with only one Mesh item of the imported asset. It will also convert the VertexNormals Data to HardEdgeWorkflow if needed.)
-• New Command --> smo.CLEANUP.DelEverythingExceptMeshes (Select everything in the current scene, except Meshes items and delete all other items / materials. It unparent in place the current Meshes to preserve their position in space in case they were part of a hierarchy.)
-• New Command --> smo.CLEANUP.RemoveAllPartTags (Check for all Meshes in the current scene remove any part tags in it.)
-• New Command --> smo.CLEANUP.DelPreTransform (Freeze Scale transform of all meshes in scene but if there is instances, it retain Instances scale to 100 percent or -100 percent as well.)
+• New Commands:
+
+  • smo.CLEANUP.ConvertAllSolidWorksShape (Search for all Solidworks Shape Items in the scene and convert them to regular Meshes. Delete the empty meshes in the process as well.)
+  • smo.CLEANUP.CleanupSolidWorksImport (Cleanup SolidWorks Import (from McMaster Website Data) in order to save a new scene with only one Mesh item of the imported asset. It will also convert the VertexNormals Data to HardEdgeWorkflow if needed.)
+  • smo.CLEANUP.DelEverythingExceptMeshes (Select everything in the current scene, except Meshes items and delete all other items / materials. It unparent in place the current Meshes to preserve their position in space in case they were part of a hierarchy.)
+  • smo.CLEANUP.RemoveAllPartTags (Check for all Meshes in the current scene remove any part tags in it.)
+  • smo.CLEANUP.DelPreTransform (Freeze Scale transform of all meshes in scene but if there is instances, it retain Instances scale to 100 percent or -100 percent as well.)
+
 • Bugfix smo.CLEANUP.RenameUVMapToDefaultSceneWise (That command now create an empty UV map if one is missing using Default UVMap name from Preferences)
 
 **BATCH**
@@ -134,7 +208,10 @@ v3.20 - 2022/05/10
 
 **CLEANUP**
 
-• Added Rename Vertex Normal Map by Modo Default name for imported FBX files --> ( FBX_normals)
+• New Command:
+
+  • Rename Vertex Normal Map by Modo Default name for imported FBX files --> ( FBX_normals)
+
 • Changed the Popup menu UI layout for better functions discoverability
 
 
@@ -150,8 +227,11 @@ v3.15 - 2022/04/29
 
 **QUICK TAG**
 
-• New Command --> smo.QT.SetMatColorIDByMeshIslands (Set Color ID by Material Tag, by Polygons Continuity (Islands) on current mesh.)
-• New Command --> smo.QT.Batch.SetMatColorIDRandom (Set Color ID by Material Tag, by Polygons Continuity (Islands) over multiple MeshLayers or Scene wide.)
+• New Commands:
+
+  • smo.QT.SetMatColorIDByMeshIslands (Set Color ID by Material Tag, by Polygons Continuity (Islands) on current mesh.)
+  • smo.QT.Batch.SetMatColorIDRandom (Set Color ID by Material Tag, by Polygons Continuity (Islands) over multiple MeshLayers or Scene wide.)
+
 • Bugfix on smo.QT.SetMatColorIDRandom / smo.QT.SetMatColorIDByUser / smo.QT.SetMatColorIDByNumber.
 
 
@@ -162,17 +242,22 @@ v3.10 - 2022/04/28
 -------------------
 **GC**
 
-• New Command --> smo.GC.SplitByPart
-• New Command --> smo.GC.SplitByMaterial
-• New Command --> smo.GC.PlasticityPrepareMeshes (Command to preprocess data from OBJ import from Plasticity. Cleanup Meshes data from Plasticity creating Polygons Parts, Unwraped UVMaps and Merging Solid items.)
+• New Commands:
+
+  • smo.GC.SplitByPart
+  • smo.GC.SplitByMaterial
+  • smo.GC.PlasticityPrepareMeshes (Command to preprocess data from OBJ import from Plasticity. Cleanup Meshes data from Plasticity creating Polygons Parts, Unwraped UVMaps and Merging Solid items.)
+
 • Bugfix on smo.GC.EdgeSlideProjectToBG command that wasn't releasing the EdgeSlide tool at the end of his execution.
 • Bugfix Switching to AVP Shading Style (The view should now not be offset or reset in terms of Point of view).
 
 **QUICK TAG**
 
 • Introduced functions to process the color ID attribution Scene Wide and / or even By Mesh Islands (Polygon Continuity)
-• New Command --> smo.QT.Batch.SetSelSetColorIDRandomConstant (Set a random Diffuse Color override using Selection Set (polygons) and Constant item. It can runs over Selected Meshes or SceneWide, By Items or by Polygon Islands.)
-• New Command --> smo.QT.SetSelSetColorIDByMeshIslands (Set a Diffuse Color override using Selection Set (polygons) on the selected Mesh Layers by Polygons Continuity (Islands). Named the new Mat using "ColorID" as Prefix.)
+• New Commands:
+
+  • smo.QT.Batch.SetSelSetColorIDRandomConstant (Set a random Diffuse Color override using Selection Set (polygons) and Constant item. It can runs over Selected Meshes or SceneWide, By Items or by Polygon Islands.)
+  • smo.QT.SetSelSetColorIDByMeshIslands (Set a Diffuse Color override using Selection Set (polygons) on the selected Mesh Layers by Polygons Continuity (Islands). Named the new Mat using "ColorID" as Prefix.)
 • Bugfix on the main command that where not processing the data correctly with specific user scene behavior.
 
 **UV**
@@ -193,8 +278,11 @@ v3.00 - 2022/03/03
 
 **GAME CONTENT**
 
-• New Command --> EdgeBoundarySimpleFuse to fuse (without Projection) an Open Edge Boundary loop ( V Norm data is kept from BG Mesh of set Self if mouse over empty area in viewport).
-• New Command --> SplitUDIMtoMesh to separate a mesh based on UDIM Polygons layout. It create New Mesh Layers, using target Mesh Name, PrefixName, UDIM ID from current selected Mesh.
+• New Commands:
+
+  • EdgeBoundarySimpleFuse to fuse (without Projection) an Open Edge Boundary loop ( V Norm data is kept from BG Mesh of set Self if mouse over empty area in viewport).
+  • SplitUDIMtoMesh to separate a mesh based on UDIM Polygons layout. It create New Mesh Layers, using target Mesh Name, PrefixName, UDIM ID from current selected Mesh.
+
 • Bugfixes on EdgeBoundaryProjectToBGnFuse to support Self Project onto same mesh. Also hiding other meshes for TransferVNData automatically
 • Transfer VNorm from BG Mesh now have an option to "Lock" edited component when the command is used. Toggle is set to off by default. It is located in the GC Options under Modo Preferences Window.
 • Layout change in right click Context Menus to add more options and commands.
@@ -227,7 +315,7 @@ v2.755 - 2022/01/21
 
 **QUICK TAG**
 
-• New Command
+• New Commands:
 
   • Set ColorID (by SelectionSet and Constant item override) ---> For ColorID Bakes from LowPoly.
   
@@ -247,9 +335,12 @@ v2.755 - 2022/01/21
 
 **GAME CONTENT**
 
-• New smo.GC.UDIMtoMaterial command to convert a Unique Material assignation to a set of Multiple Materials tag, for easy export of UDIM ready Meshes (created via Substance Painter for instance) to Unity Engine.
-  • This command use this argument setup: smo.GC.UDIMtoMaterial {Material Name} {UDIM Start ID} {UDIM END ID}
-  • Polygon and Edge (right click) Context Menu now have a Chamfer by User Value command for custom size.
+• New Command:
+
+  • smo.GC.UDIMtoMaterial to convert a Unique Material assignation to a set of Multiple Materials tag, for easy export of UDIM ready Meshes (created via Substance Painter for instance) to Unity Engine.
+
+    • This command use this argument setup: smo.GC.UDIMtoMaterial {Material Name} {UDIM Start ID} {UDIM END ID}
+    • Polygon and Edge (right click) Context Menu now have a Chamfer by User Value command for custom size.
 
 
 
@@ -319,7 +410,7 @@ v2.722 - 2021/12/08
 
 **GAME CONTENT**
 
-• Added 3 new commands to Edge Context Menu
+• New Commands to Edge Context Menu:
 
   • smo.GC.StraightenEdgeBoundary: It flatten the selected Edge Boundary to fix squeezed profile.
   • smo.GC.FixVertexWithNullVNormData. It fix missing VertexNormals on a given mesh.
@@ -360,7 +451,10 @@ v2.700 - 2021/11/15
 
 **GAME CONTENT**
 
-• Added Edge UnbevelRing command (default hotkey set to Ctrl-Shift-U)
+• New Commands:
+
+  • Edge UnbevelRing (default hotkey set to Ctrl-Shift-U)
+
 • Now there's also an option to use Original Modo Material command via a Toggle for SmartMaterial command.
 • Bugfix on SmartMaterial that was returning error in Modo 15.2 for Area Weighting method.
 • Bugfix on Render Thumbnail Scene (in case meshes Maximum Sizes was 1m / 0.1m / 0.01m / 0.001 )
@@ -421,7 +515,12 @@ v2.680 - 2021/10/22
 **GAME CONTENT**
 
 • PieSwitcher pie menu added for Viewport Borders management.
-• smo.Cleanup.RenameUVMapToDefaultSceneWise added (Check for all Meshes in the current scene and rename their First UVMap (by Index = 0) to Modo/Preferences/Defaults/Application name.)
+• New Commands:
+
+  • smo.Cleanup.RenameUVMapToDefaultSceneWise
+  
+    • (Check for all Meshes in the current scene and rename their First UVMap (by Index = 0) to Modo/Preferences/Defaults/Application name.)
+
 • Bugfix on OpenTrainingScene Command and Forms.
 • Bugfix Forms for Keymapping in GC Kit.
 • Bugfix on FullscreenMode command.
@@ -454,13 +553,15 @@ v2.674 - 2021/10/19
 
 **GAME CONTENT**
 
-• smo.GC.SetNewMaterialSmartRename
+• New Commands:
 
-  • Create a New Material Tag
-  • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
-  • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
-  • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
-  • This command is assigned to "M" Key (via a oneclick form).
+  • smo.GC.SetNewMaterialSmartRename
+
+    • Create a New Material Tag
+    • Rename the Material Layer in Shader Tree according to Group Material name with a Suffix (suffix defined in Prefs, as well as Separator based on Modo Index Style Prefs).
+    • Set the Shading Model via Preferences / SMO GC Options (Traditionnal, Energy Conserving, Physical Based, Principled, Unreal, Unity, glTF, AxF)
+    • Color Constant Override for Unreal, Unity, glTF, AxF to get correct color in Viewport (if needed via option)
+    • This command is assigned to "M" Key (via a oneclick form).
 
 • Meshops Popup form is now filtering available Meshops relative to your current Selection type (Vertex / Edge / Polygon / Item)
 • Finaly exposed that new Command: smo.GC.Setup.OffsetCenterPosPreserveInstancesPos that let you redifine Center Position on selected Mesh Item, but preserve the Instances Positions in Worldspace. (Useful for CAD)
@@ -544,6 +645,7 @@ v2.610 - 2021/06/25
   • view3DOverlay3D and Component Mode -> Alt-C = Poly Loop Slice
   • Global and ContextLess -> SpaceBar = Original Modo Behavior
   • Global and ContextLess -> Shift-SpaceBar = Mini-Properties Popover
+
 • Set the Copy/Paste PieMenu remapping to Main Remapping (will appear only in ComponentMode via Ctrl + Shift + C)
 • smo.QuickCreateCameraMatchSetup command added. (to set up Camera Match from a set of JPG Images (found in defined Folder)
 
@@ -566,15 +668,18 @@ v2.600 - 2021/06/16
 
 **UV**
 
-• Added "Select Coplanar Touching 2 Deg + Expand" in Pie Menu Form (for Mid Poly UV Mapping) 
-• Adding "Select Coplanar on Object + Expand" in Pie Menu Form
+• New Commands:
+
+  • Select Coplanar Touching 2 Deg + Expand in Pie Menu Form (for Mid Poly UV Mapping) 
+  • Select Coplanar on Object + Expand in Pie Menu Form
+
 • Bugfix on Smart Unwrap , when Edge Mode was used, the script wasn't repositioning the UVs in 0-1 Space when "Auto Relocate" option was False
 • Bugfix on UnwrapCylindrical that now use Auto Relax and Auto Orient
 • Bugfix in forms (tooltips)
 
 
 
-.. _2600:
+.. _2590:
 
 v2.590 - 2021/06/07
 -------------------
@@ -603,10 +708,13 @@ v2.583 - 2021/06/03
 
 **GAME CONTENT**
 
-• smo.GC.Unbevel Command added.
-• smo.GC.Setup.MoveRotateCenterToSelection Command added with 3 Modes Supported.
-• smo.GC.MOD.MeshCleanup Command added.
-• smo.GC.MOD.MeshCleanup with Optional Merge/Triple (that Remove Colinear Vertex mode, useful on Text characters).
+• New Commands:
+
+  • smo.GC.Unbevel
+  • smo.GC.Setup.MoveRotateCenterToSelection (with 3 Modes Supported).
+  • smo.GC.MOD.MeshCleanup
+  • smo.GC.MOD.MeshCleanup with Optional Merge/Triple (that Remove Colinear Vertex mode, useful on Text characters).
+  
 • Added Select CoPlanar Menu to SMO GC PM (Pie Menu) and VM (vertical Menu) --> Select Section
 • CENTER related Scripts are now Wrapped commands and they support Reference System state.
 • Updated all the CENTERS Forms.
@@ -637,14 +745,20 @@ v2.571 - 2021/05/31
 
 **CAD**
 
-• Added CAD Fix Rotation Transform Order Cmd to convert all Rotation Transforms from "n" order to XYZ Order without loosing the item Position / Rotation in space.
+• New Commands:
+
+  • CAD Fix Rotation Transform Order Cmd to convert all Rotation Transforms from "n" order to XYZ Order without loosing the item Position / Rotation in space.
+
 • MergeCoplanar Poly Forms in Context Menu.
 • Bugfix on CAD IsolateItemAndInstances. Now works in all conditions (From Selected (Meshes) or (Meshes + Instances) or (Instances)).
 
 **GAME CONTENT**
 
-• Added a "set VertexNormal" Command in Item / Viewport Context Menu.
-• Added Unbevel Ring by Convergence Script in Edge Context Menu.
+• New Commands:
+
+  • Set VertexNormal Command in Item / Viewport Context Menu.
+  • Unbevel Ring by Convergence Script in Edge Context Menu.
+  
 • Changed Color Scheme of Workplane color on SMO 3D ColorScheme preset.
 
 
@@ -657,10 +771,12 @@ v2.565 - 2021/05/26
 **SMONSTER**
 
 • Right Click Context Menu now have more sub-commands Filtered for each component mode:
+
   • MIFABOMA Commands
   • Merge Vertex (by distance preset)
   • Edge Collapse
   • Modollama Triple (by iterations count preset)
+  
 • Addition of Context Menu in Viewport Context Menu (Right click in viewport empty space).
 
 **CAD**
@@ -715,9 +831,12 @@ v2.540 - 2021/05/17
 
 **CAD**
 
-• New Command: Rebuild Closed Polystrip.
-• New Command: CopySelectionAsChildOfCurrentMesh.
-• New Command: Merge CoPlanarPoly to replace old system on "Delete In... menu".
+• New Commands:
+
+  • Rebuild Closed Polystrip.
+  • CopySelectionAsChildOfCurrentMesh.
+  • Merge CoPlanarPoly to replace old system on "Delete In... menu".
+
 • RebuildWithCube and RebuildWithCylinder Open / Closed / Hole script now support Reference System workflow.
 • RebuildWithCube and RebuildWithCylinder Open / Closed / Hole now support Item Auto Selection in Component Mode (if you wasn't selecting the mesh before it will select it for you).
 • Rebevel / RebuildWithCylinder / RebuildWithCube are now Wrapped Commands.
@@ -732,13 +851,18 @@ v2.540 - 2021/05/17
 **GAME CONTENT**
 
 • Hard Chamfer Presets to Edge Right Click Context Menu.
-• Added PrimGenCylinder Commands. (create a new mesh, and create a cylinder with defined arguments)
+• New Commands:
+
+  • PrimGenCylinder Commands. (create a new mesh, and create a cylinder with defined arguments)
+
 • Disabled Split By Material from GC Pie Menu, to solve unwanted computation. now it's available from the Vertical Menu. (ctrl- shift- q)
 • Bugfix on forms (Vertical Menu Update).
 
 **CLEANUP**
 
-• Added Rename All Instance by Source Mesh Name command.
+• New Commands:
+
+  • Rename All Instance by Source Mesh Name command.
 
 
 
@@ -760,9 +884,11 @@ v2.510 - 2021/05/04
 **GAME CONTENT**
 
 • UnbevelPolyLoop rewriten (ctrl-k and ctrl-shift-k commands).
-• Bugfix: Remapping.
-• Bugfix: StarTriple now works again on multiple selected islands, like it was expected to do.
-• Bugfix: SelectCoplanar Poly.
+• Bugfixes:
+
+   • Remapping.
+   • StarTriple now works again on multiple selected islands, like it was expected to do.
+   • SelectCoplanar Poly.
 
 
 
@@ -775,6 +901,7 @@ v2.502 - 2021/04/30
 
 • Global BugFix on Delete command in Modo (that was asking for confirmation to delete Items / Component. (updated on Macro and Scripts))
 • Switched CAD Tools / UV / VeNom Kits from Lazy Select (Seneca Menard scripts) workflow to Built-in Select CoPlanar Polygons command Introduced in recent release of Modo.
+
   • Better Performance in mentioned Kits.
   • No More headache on Initialize CAD / UV / Venom kit procedure. (Runs smoothly right after the installation.)
 
@@ -786,6 +913,7 @@ v2.502 - 2021/04/30
 
 • Reference System Support (when it is defined on current Item in Local Mode and Component Mode)
 • Item Auto Selection in Component Mode (if you wasn't selecting the mesh before it will select it for you).
+
   • Mirror
   • Slice
   • Radial Array
@@ -795,9 +923,11 @@ v2.502 - 2021/04/30
 
 **GAME CONTENT**
 
-• New command added via Right Click Item Context Menu:
-  • SMO GC SoloInstanceInPlace (Now select back the original Item instead of the Instance)
-  • New SMO GC ReleaseFromIsolate
+• New Commands via Right Click Item Context Menu:
+
+  • SoloInstanceInPlace (Now select back the original Item instead of the Instance)
+  • ReleaseFromIsolate
+  
 • Select Menu form updated to use the new Select CoPlanar Polys command
 
 **CAD**
@@ -808,10 +938,12 @@ v2.502 - 2021/04/30
 
 **BAKE**
 
-• New Options for Create Bake Pairs from HighPoly Mesh
+• New Options for Create Bake Pairs from HighPoly Mesh:
+
   • Create or Transfer VertexNormalMap from HighPoly to LowPoly
   • Activate the Reference System on LowPoly
   • Isolate current Bake Pairs in Viewport
+  
 • Updated the Pop Over Menu to expose more options that was previously visible only via Preferences
 
 **UV**
@@ -829,11 +961,12 @@ v2.473 - 2021/04/18
 
 **SMONSTER**
 
-• Added new command to Set All Smonster Keymaps To True (Set to Default Keymaps)
+• New Commands to Set All Smonster Keymaps To True (Set to Default Keymaps)
 
 **GAME CONTENT**
 
-• New command added via Right Click Item Context Menu:
+• New Commands via Right Click Item Context Menu:
+
   • SoloInstanceInPlace
   • Isolate Item and Instances
 
@@ -848,12 +981,14 @@ v2.473 - 2021/04/18
 **BAKE**
 
 • Groups Reordering Top/Down to Set Bake Pairs grouping feature.
-• New command added via Right Click Item Context Menu:
+• New Commands via Right Click Item Context Menu:
+
   • Create Pairs from Highpoly Mesh
 
 **CAD**
 
-• 3 New Mouse Over Commands
+• New Commands via Mouse Over:
+
   • Star Triple Flat
   • Rebuild Radial Flat
   • Rebuild Radial Tube
@@ -887,10 +1022,14 @@ v2.460 - 2021/04/11
 
 **CAD**
 
-• added the Rebuild Polystrip Commands and Menus.
-  • 2 Methods are available. (Select a Polygon Selection and 2 partial Edge loop to define the shape.)
-    • Regular rebuild
-    • Normalized Width
+• New Commands:
+
+  • Rebuild Polystrip and Menus:
+  
+    • 2 Methods are available. (Select a Polygon Selection and 2 partial Edge loop to define the shape.)
+
+      • Regular rebuild
+      • Normalized Width
 
 
 
@@ -958,8 +1097,10 @@ v1.398 - 2021/02/14
 **GAME CONTENT**
 
 • Bugfix on (Ctrl + numpad "6") Keymap and "Cycle Through MatCaps" Command.
+
   • Ctrl + numapd "6" 	-- > Cycle to Next Matcap
   • Ctrl + Alt + numapd "6" -- > Cycle to Previous Matcap
+  
 • Added Hughsk Matcaps and Nidorx Matcap Library Links from Github.
   • https://github.com/hughsk/matcap
   • https://github.com/nidorx/matcaps
@@ -996,8 +1137,10 @@ v1.387 - 2021/02/06
 
 **GAME CONTENT**
 
-• New AttachScriptToPreset features to let you create optimized Mesh Presets library.
-• New Render Thumbnail for Mesh Preset with a Built-in scene with Dynamic Scaled Grid.
+• New Commands:
+
+  • AttachScriptToPreset features to let you create optimized Mesh Presets library.
+  • Render Thumbnail for Mesh Preset with a Built-in scene with Dynamic Scaled Grid.
 
 
 
@@ -1021,7 +1164,9 @@ v1.345 - 2021/01/18
 
 **UV**
 
-• Added a new command: Unwrap_By_SharpEdge to quickly unwrap buildings an other man made props.
+• New Commands:
+
+  • Unwrap_By_SharpEdge to quickly unwrap buildings an other man made props.
 
 **GAME CONTENT**
 
@@ -1029,7 +1174,9 @@ v1.345 - 2021/01/18
 
 **CLEANUP**
 
-• Added cleanup function smo.CLEANUP.ConvertItemIndexStyleSceneWise and updated smo.CLEANUP.FullAutoCleanup to support it.
+• New Commands:
+
+  • Cleanup function smo.CLEANUP.ConvertItemIndexStyleSceneWise and updated smo.CLEANUP.FullAutoCleanup to support it.
 
 
 
@@ -1056,16 +1203,21 @@ v1.300 - 2020/12/16
 
 **BATCH**
 
-• Command to RenameMeshesBySceneName
-• Command to ConvertSceneToXFiles
+• New Commands:
+
+  • RenameMeshesBySceneName
+  • ConvertSceneToXFiles
+
 • Batch Process to convert Data from various file format (DXF, FBX, LXO, OBJ, SVG)
 • 20 Customizable command lines for more flexibility
 
 **BAKE**
+• New Commands:
 
-• Command for creating Low and High Poly mesh pairs.
-• Command for creating a Cage Export ready group of meshes.
-• Command for creating Freezing the Highpoly Subdiv or Catmull-Clark Polys.
+  • Create Low and High Poly mesh pairs.
+  • Create a Cage Export ready group of meshes.
+  • Create Freezed Highpoly Subdiv or Catmull-Clark Polys.
+
 • Presets for Edge Padding to quick access before Bake.
 
 **MARMOSET TOOLBAG LIVELINK**
@@ -1155,7 +1307,7 @@ v1.135 - 2020/06/22
 
 
 
-.. _1135:
+.. _1130:
 
 v1.130 - 2020/06/21
 -------------------
@@ -1166,9 +1318,11 @@ v1.130 - 2020/06/21
 
 **GAME CONTENT**
 
-• Added: Rotate Center to Selection.
-• Added: Move and Rotate center to Mesh open boundary center.
-• Added: Replace Target by Instance.
+• New Commands:
+
+  • Rotate Center to Selection.
+  • Move and Rotate center to Mesh open boundary center.
+  • Replace Target by Instance.
 
 
 
@@ -1191,8 +1345,10 @@ v1.116 - 2020/06/15
 **MIFABOMA**
 
 • Bugfix on Radial tools in Item Mode.
-• Added Radial Array by User Count.
-• Added Radial Sweep by User Count.
+• New Commands:
+
+  • Radial Array by User Count.
+  • Radial Sweep by User Count.
 
 **GAME CONTENT**
 
@@ -1202,6 +1358,7 @@ v1.116 - 2020/06/15
 
 • Isolated currently in Dev Meshops to be released in SMO MESHOPS Kit in separate folder "TO_CHECK".
 • Released new meshops:
+
   • SMO_ARROW
   • SMO_STEPS_RING
   • SMO_STEPS_SIMPLE
@@ -1221,7 +1378,7 @@ v1.094 - 2020/05/30
 
 
 
-.. _1094:
+.. _1091:
 
 v1.091 - 2020/05/28
 -------------------
@@ -1255,18 +1412,20 @@ v1.086 - 2020/05/25
 **SMONSTER**
 
 • Major BugFix on Icons (Location Broken on Mac and PC). (Thanks to Jörg)
-        
+
  **GAME CONTENT**
  
 • Bugfix on Input Remapping that was setting the keymap navigation to Maya only. (Now you're free to use what you want.)
-        
+
 **MIFABOMA**
 
 • Added User Value in preferences for Radial and Mirror commands via SMO MIFABOMA Options (Preferences panel)
-        
+
 **QUICK TAG**
 
-• Added the Quick Tag - Set ColorID command to polygons
+• New Command:
+
+  • Set ColorID to polygons
 
 
 
@@ -1281,8 +1440,10 @@ v1.078 - 2020/05/22
 
 **MIFABOMA**
 
-• Radial Array and Radial Sweep Command Added (Features update and BugFix) --> Mode Local / World / Relative to Parent
-        
+• New Commands:
+
+  • Radial Array and Radial Sweep (Features update and BugFix) --> Mode Local / World / Relative to Parent
+
 **RIZOMUV LIVELINK**
 
 • Set path command to directly change the Rizom Release you want to work with. No need to to edit the Python script, and now you are able to choose the release to work with , without rebooting Modo.
@@ -1302,9 +1463,12 @@ v1.064 - 2020/05/17
 
 **MIFABOMA**
 
-• Added RADIAL ARRAY
+• New Command:
+
+  • RADIAL ARRAY
+
 • Bugfix on few icons destination
-        
+
 **CLEANUP**
 
 • Changed all CLEANUP Commands to use User defined Preferences.
@@ -1321,7 +1485,7 @@ v1.053 - 2020/05/13
 
 • Fixed wrong folder address for icons referencing.
 • Added the Option in UV Kit to Pack in the Main Zero / One Area via User Prefs.
-        
+
 **RIZOMUV LIVELINK**
 
 • RizomUV Offline bridge updated.
@@ -1356,7 +1520,7 @@ v1.032 - 2020/05/04
 **CAD**
 
 • BugFixes. (Fixed issue with LazySelect that was pointing to the wrong Kit scripts folder).
-        
+
 **UV**
 
 • UV Smart Projection Tools compiled in a new Pie Menu for SP Planar / Cylindrical / Unwrap. (Added Q key in viewport).
@@ -1375,4 +1539,6 @@ v1.026 - 2020/04/30
 
 **MIFABOMA**
 
-• Added the new Slice and Flip On Axis tools.   
+• New Commands:
+
+  • Slice and Flip On Axis tools.   
