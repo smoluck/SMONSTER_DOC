@@ -15,7 +15,7 @@ KITS LIST
     MESHOPS (Total Pack v1 + v2 + POLY FUSE 2D) (v 2.30)
     MIFABOMA (v 4.00)
     QUICK TAG (v 2.70)
-    UV (v 4.00)
+    UV (v 4.10)
     VENOM (v 2.10)	(Only on Mdoo14.1 and Up)
 
 --- LIVELINK KITS ---

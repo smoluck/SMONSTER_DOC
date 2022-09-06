@@ -5,6 +5,24 @@ UPDATES LOG
    :toctree: generated
    
    
+.. _4100:
+
+v4.10 - 2022/09/06
+-------------------
+
+**SMONSTER**
+
+• Support of Multiple Items and Component selection on more commands:
+  • smo.UV.Multi.UnwrapCylindrical
+  • smo.UV.Multi.SmartOrient
+  • smo.UV.Multi.SmartUnwrap
+
+**UV**
+
+• All Unwrap Command snow support Multiple Items and Component Selections.
+• ( Smart Unwrap Cylindrical / Smart Unwrap / SmartOrient ) now support multiple Items and Component Selections for faster processing.
+
+
 
 .. _4000:
 
