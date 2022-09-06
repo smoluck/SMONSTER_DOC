@@ -19,6 +19,7 @@ v4.10 - 2022/09/06
 
 **UV**
 
+• "Q" key (instead of Shift - Q) show up now the UV Pie Menu when the mouse is over the UVTexture Editor.
 • All Unwrap Command snow support Multiple Items and Component Selections.
 • ( Smart Unwrap Cylindrical / Smart Unwrap / SmartOrient ) now support multiple Items and Component Selections for faster processing.
 
