@@ -17,7 +17,7 @@ KITS LIST
 • MIFABOMA (v 4.00)
 • QUICK TAG (v 2.70)
 • UV (v 4.10)
-• VENOM (v 2.20)	(Only on Mdoo14.1 and Up)
+• VENOM (v 2.20)	(Only on Modo 14.1 and Up)
 
 --- LIVELINK KITS ---
 
