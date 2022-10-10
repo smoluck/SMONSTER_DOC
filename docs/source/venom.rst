@@ -11,7 +11,7 @@ VENOM Kit
 Concept
 -------
     
-   The XXXX kit is
+   The VeNom kit is dedicated to Vertex Normal Map editing. It is based on Weighted Normal Workflow
 
 
 
@@ -74,3 +74,14 @@ Main Commands
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/yfdhhsm1UK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+.. _venom_walkthrough_tutorial:
+
+WalkThrough Tutorial in Livestream
+-----------------------------
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/SPxpiBokpDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
