@@ -11,9 +11,9 @@ MATH TOOLS Kit
 Concept
 -------
     
-   The XXXX kit is
+   The MATH TOOLS Kit is giving an easy access to math nodes in the Schematic view.
 
-
+   It is designed to speedup your workflow when you have to create assemblies in the Schematic via a nice pie-menu.
 
 .. _keymaps_math:
 

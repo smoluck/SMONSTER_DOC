@@ -11,7 +11,7 @@ MIFABOMA Kit
 Concept
 -------
     
-   The XXXX kit focused on a large amount of common modeling tools via a packed pie menu that use presets to speedup the workflow.
+   The MIFABOMA kit focused on a large amount of common modeling tools via a packed pie menu that use presets to speedup the workflow.
    • MIRROR
    • FALLOFF
    • BOOLS

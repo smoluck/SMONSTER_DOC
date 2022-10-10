@@ -13,7 +13,7 @@ Concept
     
    The VeNom kit is dedicated to Vertex Normal Map editing. It is based on Weighted Normal Workflow
 
-
+   It is designed to speed-up the VNrm editing via Mouse Over commands. No selection required and instant feedback for fast editing.
 
 .. _keymaps_venom:
 

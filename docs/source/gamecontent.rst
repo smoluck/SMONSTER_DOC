@@ -11,8 +11,9 @@ GAME CONTENT Kit
 Concept
 -------
     
-   The XXXX kit is
+   The GAME CONTENT kit is your Go to for about 50 % of your recurent tasks in Modo.
 
+   It is designed to speed-up the most common task on your daily basis work. It is composed by a Main pie-menu with dedicated commands and presets as well as UI improvements to default Modo tools.
 
 
 .. _keymaps_gamecontent:

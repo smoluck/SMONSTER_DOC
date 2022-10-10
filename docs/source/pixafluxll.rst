@@ -11,7 +11,7 @@ PIXAFLUX LIVELINK Kit
 Concept
 -------
     
-   The XXXX kit is
+   The PIXAFLUX LiveLink kit is giving you the ability to send mesh Data to Pixaflux, and let's you bake the Normal map out of it and bring it back in Modo.
 
 
 

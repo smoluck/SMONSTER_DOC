@@ -11,7 +11,7 @@ QUICK TAG Kit
 Concept
 -------
     
-   The XXXX kit is
+   The QUICK TAG kit is here to give quick commands to tag Color IDs , via Material Poly Tag or Selection Set Tag. It also helps you define quick selections of polygons registered in the Mesh.
 
 
 

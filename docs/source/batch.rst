@@ -9,7 +9,7 @@ BATCH Kit
 Concept
 -------
     
-   The XXXX kit is
+   The BATH kit is all about Batching a Folder and all files in it to convert or modify a row of Input Files to a defined Output File Format. It also let you add your own script in the process giving you a large control over the desired result.
 
 
 

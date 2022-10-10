@@ -13,7 +13,7 @@ Concept
     
    The UV kit is available from the kit bar and can be accessed directly from the 3D viewport as well as from the UV viewport.
    
-   It is designed to speedup the projection and unwrap of UV from a given mesh, using Coplanar selection presets.
+   It is designed to speed-up the projection and unwrap of UV from a given mesh, using Coplanar selection presets.
    It also make sure UV islands are not flipped and repacked and normalize Texel Density at every steps. That way ensure a nice layout preview of your UV state.
    
    Principles of the main commands rely on selecting a one or set of polygons and let the selection presets do the rest of the coplanar selection for you.

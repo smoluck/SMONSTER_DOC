@@ -9,7 +9,7 @@ COLOR BAR Kit
 Concept
 -------
     
-   The XXXX kit is
+   The COLOR BAR kit brings you easy tools to gives independent GL drawing to your Mesh items and nodes in Modo.
 
 
 
