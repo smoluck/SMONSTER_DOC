@@ -3,11 +3,49 @@ UPDATES LOG
 
 .. autosummary::
    :toctree: generated
-   
+
+
+
+.. _4300:
+
+v4.30 - 2022/10/10
+-------------------
+
+**SMONSTER**
+
+• Added this AVP form Preset "SMONSTER_ShowcaseScene" for showcasing tool Demos.
+
+**BATCH**
+
+• Updated preset load for Plasticity process
+• added URL Link for further use of SLDPRT files from McMaster website for testing BATCH kit
+
+**GC**
+
+• Changed the set of Matcaps to match most common used one with addition of soft bright clay matcaps
+• Edit Chamfer command added to Polygon Context Menu
+• Config change to be sure SwitcherBar state visibility to be sure the Top and Bottom bar are visible by default.
+• Bugfix for VeNom ReCentering the view in special situations after running the command.
+• Viewport Preset Load bugfix
+• Bugfix AVP Preset switcher
+• The Unmerge command is now exposed here to speed up that process in from the viewport in item mode.
+• smo.GC.ReplaceTargetByInstance - Changed the Guide Mesh mode to be sure it is not selectable as before. It speeds up User interaction while adjusting the new instances position / rotations. You can still select it from the Item List.
+
+**CAD**
+
+• smo.CAD.CopyCutAsChildOfCurrentMesh now rename the new mesh by the source name.
+
+**VENOM**
+
+• The main command now keep the Isolate mode or the InactiveSameActive state on current the viewport as expected.
+
+
 
 .. _4150:
 
 v4.15 - 2022/09/21
+-------------------
+
 **SMONSTER**
 
 • Python code boolean simplification
@@ -35,6 +73,7 @@ v4.10 - 2022/09/06
 **SMONSTER**
 
 • Support of Multiple Items and Component selection on more commands:
+
   • smo.UV.Multi.UnwrapCylindrical
   • smo.UV.Multi.SmartOrient
   • smo.UV.Multi.SmartUnwrap
@@ -68,10 +107,10 @@ v4.00 - 2022/09/04
   • smo.GC.Multi.ExportSelectedMeshesAsMeshPreset
   • smo.UV.Multi.UnwrapPlanar
   • smo.UV.Multi.UnwrapRectangleOrient
+
 **UV**
 
 • UV Smart Unwrap Planar now support multiple Items and Component Selections for faster processing (smo.UV.Multi.UnwrapPlanar).
-
 
 **GC**
 
@@ -107,7 +146,7 @@ v4.00 - 2022/09/04
 
 **RIZOMUV Livelink**
 
-• bugfix to remove Embeded Media in FBX export on Modo 15.1 and up
+• bugfix to remove Embedded Media in FBX export on Modo 15.1 and up
 
 
 
@@ -137,7 +176,7 @@ v3.60 - 2022/08/08
 • "AI TOOLS" and "PCLOUD XYZ" Beta Kits added.
 
 
-   
+
 .. _3590:
 
 v3.59 - 2022/07/30
