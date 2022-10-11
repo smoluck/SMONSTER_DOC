@@ -10,7 +10,7 @@ KITS LIST
 • CAD TOOLS (v 3.90)
 • CLEANUP (v 2.50)
 • COLOR BAR (v 1.80)
-• GAME CONTENT (v 11.40)
+• GAME CONTENT (v 11.50)
 • MASTER (v 1.30)
 • MATH TOOLS (v 1.30)
 • MESHOPS (Total Pack v1 + v2 + POLY FUSE 2D) (v 2.30)

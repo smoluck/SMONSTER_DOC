@@ -6,6 +6,32 @@ UPDATES LOG
 
 
 
+.. _4320:
+
+v4.32 - 2022/10/11
+-------------------
+
+**GC**
+
+• TransformRotate now doesn't rotate (over RX) the selection with the "x" key. Preserving the Snapping ON/OFF toggle ability.
+• TransformRotate keymap for rotation is now set to:
+
+  • ctrl + right arrow = RX +90
+  • ctrl + left arrow = RX -90
+  • ctrl + up arrow = RY +90
+  • ctrl + down arrow = RY -90
+  • shift + up arrow = RZ +90
+  • shift + down arrow = RZ -90
+
+• Mirror Generator Tool keymap have been changed to preserve the Snapping ON/OFF toggle ability.
+• Mirror Generator keymap for axis is now set to:
+
+  • ctrl + left = Axis X
+  • ctrl + down = Axis Y
+  • ctrl + right = Axis Z
+
+
+
 .. _4300:
 
 v4.30 - 2022/10/10
