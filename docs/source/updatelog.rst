@@ -16,10 +16,12 @@ v4.50 - 2022/12/11
 • smo.GC.Display.CycleMatCap - Bugfix for Modo 16.1 that wasn't turning on the Wireframe Overlay as you was switching to MatCap shading. (causing error message in previous release)
 • smo.GC.ChamferEdgesByUnit - Now automatically setting the "SharpCorner" option to "ON"
 • smo.GC.FixVertexWithNullVNormData - Now have an option to automatically fix the detected Null values.
+
   • That command now Select or AutoFix Vertex with Null Vertex Normal Data.
   • Check current selected mesh, analyse the vertex data of Vertex Normal Maps.
   • If those value are Null, it select the vertex and apply a Set Vertex Normal command.
   • If you add the argument True it will automatically fix those vertex.
+
 • smo.GC.ResetVertexNormal - Now also check if there is a Vertex Normal map. If not it will create one automatically.
 
 **VENOM**
@@ -63,6 +65,7 @@ v4.32 - 2022/10/11
 
 • TransformRotate now doesn't rotate (over RX) the selection with the "x" key. Preserving the Snapping ON/OFF toggle ability.
 • TransformRotate keymap for rotation is now set to:
+
   • ctrl + right arrow = RX +90
   • ctrl + left arrow = RX -90
   • ctrl + up arrow = RY +90
@@ -72,6 +75,7 @@ v4.32 - 2022/10/11
 
 • Mirror Generator Tool keymap have been changed to preserve the Snapping ON/OFF toggle ability
 • Mirror Generator keymap for axis is now set to:
+
   • ctrl + left = Axis X
   • ctrl + down = Axis Y
   • ctrl + right = Axis Z
