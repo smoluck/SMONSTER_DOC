@@ -14,7 +14,7 @@ After downloading the Zip file from the Gumroad page, please follow those instru
 
 .. note::
 
-   (If you are an owner of SMONSTER V1 or v2, please delete the SMONSTER folder from your Kits folder before install it the installation folder could be found in the Content folder of Modo. You just have to open Modo and open that folder location via the menu **System** / **Open Content folder** )
+   (If you are an owner of SMONSTER v1, v2 or v3, please delete the SMONSTER folder from your Kits folder before install it the installation folder could be found in the Content folder of Modo. You just have to open Modo and open that folder location via the menu **System** / **Open Content folder** )
    
    `SOURCE Edition Kit + TRAINING kit`
    
@@ -39,8 +39,8 @@ Automatic Install (via Modo and LPK)
 Manual Install 
 --------------
 
-#. Open the Zip Archive **SMONSTER_V3.XX.zip** and Drag and Drop the LPK file into a temp folder.
-#. Rename the **SMONSTER_V3.XX.lpk** to a zip file **SMONSTER_V3.XX.zip**
+#. Open the Zip Archive **SMONSTER_vX.XX_SourceEdition.zip** and Drag and Drop the LPK file into a temp folder.
+#. Rename the **SMONSTER_vX.XX_SourceEdition.lpk** to a zip file **SMONSTER_vX.XX_SourceEdition.zip**
 #. Open you Modo Content Folder and create a new folder under Kits called SMONSTER, and unzip the files from the last renamed zip in it.
 #. Restart Modo
 #. Now you're ready to go.

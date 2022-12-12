@@ -6,6 +6,25 @@ UPDATES LOG
 
 
 
+.. _4520:
+
+v4.52 - 2022/12/12
+-------------------
+
+**UV**
+
+• Bugfix on Multi Meshes Unwrap when UVmaps where miss-matching in presence or not.
+
+  • smo.UV.Multi.UnwrapRectangleOrient / smo.UV.Multi.UnwrapPlanar / smo.UV.Multi.UnwrapSmart / smo.UV.Multi.UnwrapCylindrical
+
+• smo.UV.AutoCreateUVMap - Automatically Create a UV Map if missing using Default UVMap Name in Preferences.
+
+**RIZOMUV Livelink**
+
+• Bugfix on compilation errors on some platforms (win 11)
+
+
+
 .. _4500:
 
 v4.50 - 2022/12/11
