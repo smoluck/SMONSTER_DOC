@@ -5,6 +5,49 @@ UPDATES LOG
    :toctree: generated
 
 
+.. _4700:
+
+v4.70 - 2022/12/22
+-------------------
+
+**UV**
+
+• smo.UV.Multi.AutoUnwrapSmartByAngle 88 180 - New command to Auto Unwrap the current Mesh item by using Sharp Edges defined by a Min and Max Angle as Seams.
+
+  • It use the SmartUnwrap base arguments (4 types):
+  • Unwrap Method (Conformal or Angle Based)
+  • Initial Projection (Planar or Group Normal)
+  • Min Ang
+  • Max Angle
+
+• Updated UI (Vertical Menu and Pie Menu) to expose Auto Smart Unwrap By Angle command.
+• smo.UV.SmartOrient - Bugfix to keep EdgeSelection from UVSpace (Edge selection relative to UVIslands).
+• smo.uv.Multi.UnwrapSmart - Bugfix to work as well in Edge Mode to define UVSeams.
+
+
+
+.. _4600:
+
+v4.60 - 2022/12/19
+-------------------
+
+**GC**
+
+• Exposed the Select / Fix Missing Vertex Normal Data as well in the Item Context Menu.
+• Bugfix smo.GC.SetNewMaterialSmartRename now correctly Assign Mat Tag if already existing in the scene with creating a duplicated one. (As i was using Tim Cowson - Popup Kit in my workflow, that bug passed over my radar, but it was an issue for casual users.)
+
+**QT**
+
+• Finally completed the Rewrite of those ColorID Commands in order to let the user have more features and freedom. ( smo.QT.SetMatColorIDByNumber / smo.QT.SetMatColorIDByUser / smo.QT.SetSelSetColorIDByNumber / smo.QT.SetSelSetColorIDByUser )
+
+  • Now you can use whatever ID Value for those. You're not constrained anymore by the creation of those in order. (Start with #2 then add #6. There is no Order constraint on those commands.)
+
+• Now when you create a ColorID, all the new Group Masks will be regrouped under a main Group folder called "Grp_ColorID" for easier shader tree organization.
+• All ColorID Cmds are taking profit of the Automatic reordering of Newly created ID mask.
+• Bugfix on various QT ColorID commands for Selection Set Tagging.
+• GrpMask and AdvancedMaterial are now all Colored Nodes according to Color ID Presets (from 0 to 16).
+
+
 
 .. _4520:
 
